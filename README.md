@@ -746,3 +746,20 @@ Việc nhấp chuột trái và kéo một biểu tượng ứng dụng (appicon
 
 💠 **Mẹo nhỏ:** Nếu bạn muốn đưa một ứng dụng vào Dock mà không muốn phải mở nó lên trước, bạn có thể kéo biểu tượng của nó từ một "Drawer" (ngăn kéo) khác hoặc cấu hình trực tiếp thông qua WPrefs.app. Hãy nhớ rằng Dock chỉ chấp nhận các biểu tượng ứng dụng thực thụ, không phải các cửa sổ đang chạy được thu nhỏ lại đâu nhé!
 
+<a name="#configuring"></a>
+Configuring
+----------------------
+Mỗi biểu tượng trên Dock đều có một trình đơn riêng. Bạn nhấp chuột phải vào biểu tượng đó để hiển thị "Trình đơn biểu tượng ứng dụng" (Application icon menu), sau đó chọn mục "Settings..." để bắt đầu cấu hình.
+<p align="left"> <img src="/img/docked_application_settings.png" alt="Root window menu"> </p>
+
+**Các tùy chỉnh trong bảng cài đặt:**
+- Đường dẫn và Tham số: Bạn có thể thay đổi đường dẫn thực thi của ứng dụng, các tham số đi kèm, lệnh thực thi khi nhấp chuột giữa và biểu tượng hiển thị.
+- Lưu ý về lệnh: Các lệnh Shell phức tạp (như điều hướng dòng lệnh >) không thể sử dụng trực tiếp trong trường nhập lệnh này.
+- Thay đổi biểu tượng: Biểu tượng bạn muốn dùng phải nằm trong các thư mục được hiển thị trong bảng chọn khi duyệt tìm. Bạn có thể thêm các thư mục mới vào danh sách này thông qua phần [Search path](https://github.com/slimulv1/huong-dan-wmaker#search-path) trong bảng tùy chỉnh hệ thống.
+- Tự động khởi chạy (Auto-launch): Có một ô đánh dấu cho phép ứng dụng tự động khởi động cùng lúc với Window Maker.
+  - Lưu ý: Hãy cẩn thận với tính năng này! Nếu bạn đặt trình giả lập terminal, trình quản lý tệp và trình duyệt web tự khởi động, chúng sẽ đồng loạt mở ra mỗi khi bạn đăng nhập. Thông thường, bạn chỉ nên dùng tính năng này cho các dockapps (như đồng hồ hay trình theo dõi hệ thống).
+- Chống gỡ bỏ: Từ phiên bản 0.62.0, một ô đánh dấu mới đã được thêm vào để giúp ngăn chặn việc vô tình kéo biểu tượng ra khỏi Dock (khóa biểu tượng).
+- Nhấp chuột giữa (Middle-click launch): Từ phiên bản 0.70.0, một trường mới đã được thêm vào cho phép gán lệnh khi nhấp chuột giữa. Ví dụ, nếu bạn nhập "firefox" vào trường này của một biểu tượng bất kỳ, trình duyệt Firefox sẽ khởi chạy khi bạn nhấp chuột giữa vào biểu tượng đó.
+
+💠 **Mẹo nhỏ:** Việc tận dụng trường Middle-click launch là một cách tuyệt vời để "giấu" một ứng dụng thứ hai vào cùng một biểu tượng trên Dock, giúp tiết kiệm không gian màn hình tối đa!
+
