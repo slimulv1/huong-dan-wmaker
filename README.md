@@ -208,7 +208,7 @@ Thiết lập đường dẫn tìm kiếm biểu tượng và ảnh mảng (pixm
 Bảng điều khiển này được sử dụng để thêm hoặc xóa các đường dẫn thư mục dùng cho việc tìm kiếm các biểu tượng và "pixmaps". Những đường dẫn này được sử dụng trong các hộp thoại settings cho "dockapps" và các biểu tượng ứng dụng đã được đưa vào dock (docked), vì vậy việc có một bộ đường dẫn được định nghĩa đầy đủ và chuẩn xác là rất quan trọng. Điều này có thể đòi hỏi một số can thiệp thủ công, đặc biệt là khi thiết lập ban đầu (initial setup), vì một số đường dẫn mặc định sẽ không tồn tại trên hệ thống của bạn, trong khi những đường dẫn khác chưa được định nghĩa trước thì lại có sẵn. Hãy sử dụng các hộp thoại "add" (thêm) và "remove" (xóa) để cấu hình dựa theo những gì thực sự có sẵn trên máy.
 
 <a name="#dock2"></a>
-Dock
+Thanh Dock
 ----------------------
 <p align="left">
   <img src="/img/prefs7.png" alt="">
