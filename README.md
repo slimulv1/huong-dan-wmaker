@@ -284,7 +284,7 @@ Trong bảng điều khiển này, menu ứng dụng và các lệnh để khở
 Keyboard shortcut
 ----------------------
 <p align="left">
-  <img src="/img/prefs10.png" alt="">
+  <img src="/img/prefs11.png" alt="">
 </p>
 
 Thiết lập phím tắt bàn phím trong WPrefs.app
@@ -292,7 +292,7 @@ Thiết lập phím tắt bàn phím trong WPrefs.app
 Nhiều hành động trong Window Maker đã được định nghĩa sẵn các phím tắt bàn phím. Các hành động này chủ yếu liên quan đến cửa sổ và không gian làm việc. Việc thay đổi, thêm hoặc xóa các phím tắt có thể được thực hiện trong bảng điều khiển này. Việc định nghĩa một phím tắt có thể được thực hiện một cách tương tác (interactively), thông qua việc ghi lại (capturing) tổ hợp phím.
 
 <a name="#mouse"></a>
-Chuột (Mouse)
+Mouse
 ----------------------
 <p align="left">
   <img src="/img/prefs12.png" alt="">
