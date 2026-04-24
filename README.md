@@ -19,7 +19,7 @@ Thông tin trong bài hướng dẫn này dựa trên phiên bản Window Maker 
 ## 📜 Mục lục
 1. [Tùy chỉnh (Preferences)](#preferences)
 2. [Cửa sổ (Windows)](#windows)
-3. [Menu (Menus)](#menus)
+3. [Menus (Menus)](#menus)
 4. [Dock](#dock1)
 5. [Clip](#clip)
 6. [Hình nền và chủ đề (Backgrounds and themes)](#backgrounds-and-themes)
@@ -565,4 +565,13 @@ Cho phép bạn đánh dấu chọn để:
 - Đóng (Close): Đóng cửa sổ.
 - Buộc dừng (Kill): Buộc đóng ứng dụng. Đây là tùy chọn dự phòng cho các trường hợp khẩn cấp (ứng dụng bị treo).
 💠  **Lời khuyên:** Phần Attributes là nơi mạnh mẽ nhất của Window Maker. Nếu bạn muốn một ứng dụng như trình nghe nhạc luôn nằm ở mọi không gian làm việc và không có thanh tiêu đề để tiết kiệm diện tích, đây chính là nơi để thiết lập!
+
+<a name="#menus"></a>
+Menus
+----------------------
+[Trình đơn cửa sổ gốc (Root window menu)](#menus)
+[Trình đơn danh sách cửa sổ (Window list menu)](#window-list-menu)
+[Trình đơn không gian làm việc (Workspaces menu)](#workspaces-menu)
+[Trình đơn biểu tượng ứng dụng (Application icon menu)](application-icon-menu)
+
 
