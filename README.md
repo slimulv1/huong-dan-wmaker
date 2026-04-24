@@ -82,6 +82,7 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
   - [Moving](#moving)
   - [Maximizing](#maximizing)
   - [Miniaturizing](#miniaturizing)
+  - [Resizing](#resizing)
 
 💠 Giải thích thêm cho một số thuật ngữ:
 - Window focus: Trong tin học, đây là trạng thái một cửa sổ đang "được chọn" để nhận lệnh từ bàn phím/chuột.
@@ -465,3 +466,20 @@ Cửa sổ thu nhỏ (miniwindow) khác với biểu tượng ứng dụng ở c
 - Nhấp đúp chuột giữa vào biểu tượng ứng dụng: khôi phục tất cả các cửa sổ đã thu nhỏ và bị ẩn của ứng dụng đó.
 
 💠 Bạn có biết? Trong Window Maker, các cửa sổ thu nhỏ này thường xếp hàng ngăn nắp ở đáy màn hình. Nếu bạn thấy chúng chiếm quá nhiều diện tích, bạn có thể cân nhắc sử dụng tính năng "Hiding" (Ẩn) để dọn dẹp không gian làm việc gọn gàng hơn mà vẫn giữ ứng dụng chạy ngầm.
+
+<a name="#Resizing"></a>
+Resizing
+----------------------
+
+Thanh thay đổi kích thước (resizebar) ở dưới cùng của cửa sổ được chia thành ba vùng: vùng đầu bên trái, vùng giữa và vùng đầu bên phải. Tùy thuộc vào vùng bạn nhấp vào, thao tác thay đổi kích thước sẽ bị giới hạn theo một hướng nhất định.
+- Vùng giữa: Nhấp vào vùng giữa của thanh thay đổi kích thước và kéo (dragging) theo chiều dọc sẽ thay đổi chiều cao của cửa sổ.
+- Vùng trái hoặc phải: Nhấp vào một trong hai vùng đầu và kéo (dragging) theo chiều ngang sẽ thay đổi chiều rộng của cửa sổ.
+- Kéo với phím Shift: Nhấn giữ phím Shift trong khi kéo cũng mang lại kết quả tương tự như trên.
+- Kéo theo đường chéo: Nhấp vào một trong hai vùng đầu và kéo (dragging) theo đường chéo sẽ thay đổi cả chiều cao và chiều rộng.
+
+Các tổ hợp phím cung cấp thêm nhiều lựa chọn:
+- Phím Meta + nhấp chuột phải vào vùng ứng dụng (client area) và kéo: Thay đổi kích thước cửa sổ.
+- Nút chuột giữa + kéo thanh thay đổi kích thước: Thay đổi kích thước cửa sổ mà không đưa nó ra phía trước.
+- Phím Ctrl + kéo thanh thay đổi kích thước: Thay đổi kích thước cửa sổ mà không lấy tiêu điểm (focusing) cho nó.
+
+💠 Gợi ý: Nếu bạn thấy thanh resizebar này hơi khó bấm trúng (vì nó thường khá mỏng), bạn có thể dùng tổ hợp phím Alt + Chuột phải (phím Meta mặc định) ở bất kỳ đâu bên trong cửa sổ để thay đổi kích thước nhanh hơn nhiều đấy!
