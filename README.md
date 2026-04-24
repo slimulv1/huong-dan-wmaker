@@ -52,22 +52,31 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
   WPrefs.app sau khi khởi chạy
   
 ## 🎨 Các thiết lập tùy chỉnh hiện có
-- [Tiêu điểm cửa sổ (Window focus)](#window-focus)
-- [Xử lý cửa sổ (Window handling)](#window-handling)
-- [menu](#menu)
-- [Biểu tượng (Icon)](#icon)
-- [Ergonomy](#ergonomy)
-- [Đường dẫn tìm kiếm (Search Path)](#search-path)
-- [Thanh Dock](#thanh-dock)
-- [Không gian làm việc (Workspace)](#workspace) 
-- [Other](#other)
-- [Menu ứng dụng (Applications menu)](#applications-menu)
-- [Phím tắt bàn phím (Keyboard shortcut)](#keyboard-shortcut)
-- [Chuột (Mouse)](#mouse)
-- [Giao diện (Appearance)](#appearance)
-- [Cấu hình phông chữ (Font configuration)](#font-configuration)
-- [Người dùng chuyên gia (Expert user))](#expert-user)
-- [Chỉnh sửa tệp cấu hình (Editing the configuration file)](#editing-the-configuration-file)
+- [🌸 Window Maker: The Phantasmagoria of Desktop Customization 🌸](#-window-maker-the-phantasmagoria-of-desktop-customization-)
+- [【 Hướng dẫn cách dùng Window Maker  】](#-hướng-dẫn-cách-dùng-window-maker--)
+  - [⛩️ Lời tựa](#️-lời-tựa)
+  - [📜 Mục lục](#-mục-lục)
+  - [Preferences](#preferences)
+  - [WPrefs.app](#wprefsapp)
+  - [🎨 Các thiết lập tùy chỉnh hiện có](#-các-thiết-lập-tùy-chỉnh-hiện-có)
+  - [Window focus](#window-focus)
+  - [Window handling](#window-handling)
+  - [Menu](#menu)
+  - [Icon](#icon)
+  - [Ergonomy](#ergonomy)
+  - [Search Path](#search-path)
+  - [Thanh Dock](#thanh-dock)
+  - [Workspace](#workspace)
+  - [Other](#other)
+  - [Applications menu](#applications-menu)
+  - [Keyboard shortcut](#keyboard-shortcut)
+  - [Mouse](#mouse)
+  - [Appearance](#appearance)
+  - [Font configuration](#font-configuration)
+  - [Expert user](#expert-user)
+  - [Editing the configuration file](#editing-the-configuration-file)
+  - [Windows](#windows)
+  - [Description](#description)
 
 💠 Giải thích thêm cho một số thuật ngữ:
 - Window focus: Trong tin học, đây là trạng thái một cửa sổ đang "được chọn" để nhận lệnh từ bàn phím/chuột.
@@ -375,7 +384,7 @@ Windows
 - [Đóng (Closing)](Closing)
 - [Menu lệnh (Commands menu)](Commands-menu)
 
-<a name="#Descriptionr"></a>
+<a name="#Description"></a>
 Description
 ----------------------
 
