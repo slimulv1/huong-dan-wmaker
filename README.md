@@ -86,6 +86,7 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
   - [Shading](#shading)
   - [Hiding](#hiding)
   - [Closing](#closing)
+  - [Commands menu](#commands-menu)
 
 💠 **Giải thích thêm cho một số thuật ngữ:**
 - Window focus: Trong tin học, đây là trạng thái một cửa sổ đang "được chọn" để nhận lệnh từ bàn phím/chuột.
@@ -519,4 +520,15 @@ Thông thường, việc thoát một ứng dụng từ bên trong (ví dụ: th
 - Nút đóng có hình ô vuông nhỏ (hoặc biểu tượng khác): Đại diện cho tiến trình chính của ứng dụng.
 
 Việc "kill" ứng dụng bằng cách nhấp đúp là biện pháp mạnh tay (giống như ```xkill```), nó có thể khiến bạn mất dữ liệu chưa kịp lưu. Vì vậy, hãy luôn ưu tiên sử dụng lệnh Exit hoặc Quit trong menu của ứng dụng trước nhé!
+
+<a name="#Commands-menu"></a>
+Commands menu
+----------------------
+
+Việc nhấp chuột phải vào thanh tiêu đề của một cửa sổ sẽ mở ra một trình đơn chứa các lệnh áp dụng riêng cho cửa sổ đó. Tổ hợp phím Ctrl + Esc có thể được sử dụng để thay thế cho việc nhấp chuột vào thanh tiêu đề. Phím Esc dùng để đóng trình đơn này.
+
+💠  **Bạn nên biết:** Trình đơn này là "cứu cánh" khi bạn cần tinh chỉnh nhanh một cửa sổ cụ thể. Tại đây, bạn có thể tìm thấy các tùy chọn nâng cao như:
+- Attributes: Chỉnh sửa thuộc tính chuyên sâu (như loại bỏ thanh tiêu đề, làm cửa sổ luôn nổi trên cùng).
+- Options: Thiết lập các quy tắc riêng cho ứng dụng đó (ví dụ: luôn mở ở một không gian làm việc nhất định).
+- Kill: Buộc dừng ứng dụng nếu nó bị treo.
 
