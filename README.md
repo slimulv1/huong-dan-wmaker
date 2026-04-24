@@ -572,7 +572,7 @@ Menus
 - [menu cửa sổ gốc (Root window menu)](#root-window-menu)
 - [menu danh sách cửa sổ (Window list menu)](#window-list-menu)
 - [menu không gian làm việc (Workspaces menu)](#workspaces-menu)
-- [menu biểu tượng ứng dụng (Application icon menu)](application-icon-menu)
+- [menu biểu tượng ứng dụng (Application icon menu)](#application-icon-menu)
 
 💠 **Gợi ý:** Bạn có thể tùy chỉnh hoàn toàn nội dung của Root window menu bằng cách sử dụng WPrefs.app hoặc chỉnh sửa trực tiếp tệp cấu hình để tạo ra một danh sách các ứng dụng yêu thích theo ý mình đấy!
 
@@ -683,6 +683,34 @@ Nhấp chuột phải vào một biểu tượng trong Dock sẽ mở ra một m
 <a name="#dock"></a>
 DOCK
 ----------------------
+Nội dung
+- [Dock ứng dụng (Application dock)](#application-dock)
+- [Khởi chạy ứng dụng (Starting an application)](#starting-an-application)
+- [Tùy biến (Customizing)](#customizing)
+- [Cấu hình (Configuring)](#configuring)
 
+<a name="#application-dock"></a>
+Application-dock
+----------------------
+Dock là một cột biểu tượng nằm mặc định ở phía bên phải của màn hình.
 
+**Thêm và xóa ứng dụng**
+
+Bất kỳ ứng dụng nào cũng có thể được gắn vào Dock. Để thực hiện:
+1. Mở ứng dụng bạn muốn.
+2. Nhấp chuột trái và kéo biểu tượng của ứng dụng đó (appicon) vào vị trí cuối cùng trên Dock.
+3. Dock sẽ tự động "hút" biểu tượng đó vào. Nó sẽ nằm cố định ở đó cho đến khi bạn gỡ bỏ (bằng cách nhấp chuột trái và kéo biểu tượng ra khỏi Dock — nó sẽ biến mất).
+
+Nếu bạn đã lưu phiên làm việc (session) trước khi đăng xuất (hoặc thiết lập Window Maker tự động lưu phiên), bất kỳ biểu tượng nào bạn đã gắn vào Dock sẽ tự động xuất hiện lại trong các lần đăng nhập tiếp theo.
+
+**Cấu hình hiển thị**
+
+Bạn có thể thiết lập để Dock luôn nằm trên các cửa sổ đã phóng to. Để thực hiện, nhấp chuột phải vào biểu tượng chính của Dock hoặc bất kỳ biểu tượng ứng dụng nào trên đó, sau đó chọn tùy chọn phù hợp từ trình đơn con Dock position. ([Xem thêm phần Menu biểu tượng ứng dụng để biết chi tiết](https://github.com/slimulv1/huong-dan-wmaker/blob/main/#application-icon-menu)).
+
+**Di chuyển và ẩn Dock**
+- Đổi bên màn hình: Biểu tượng WMDock (mặc định có logo GNUstep) có thể được kéo sang ngang để chuyển toàn bộ Dock từ cạnh này sang cạnh kia của màn hình.
+- Thu gọn Dock: Kéo biểu tượng WMDock xuống dưới sẽ đẩy toàn bộ Dock ra khỏi màn hình, ngoại trừ chính biểu tượng WMDock đó vẫn hiển thị.
+- Khôi phục: Để hiển thị lại Dock, chỉ cần nhấp chuột trái và kéo biểu tượng đó trở lại màn hình.
+
+💠 **Lưu ý:** Biểu tượng WMDock chính là "mỏ neo" của toàn bộ hệ thống Dock. Nếu bạn lỡ tay kéo nó đi quá xa, đừng lo lắng, chỉ cần tìm biểu tượng có hình logo GNUstep và kéo nó trở lại vị trí cũ là được!
 
