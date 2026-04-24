@@ -1,6 +1,6 @@
 <div align="center"> 
   
-# 🌸Window Maker: The Phantasmagoria of Desktop Customization🌸
+# 🌸 Window Maker: The Phantasmagoria of Desktop Customization 🌸
 # 【 Hướng dẫn cách dùng Window Maker ![Wmaker](https://github.com/slimulv1/slimulv1/blob/main/wmaker.png) 】
   <img src="https://img.shields.io/badge/Gensokyo-Approved-ff69b4?style=for-the-badge&logo=konami" alt="Gensokyo Approved">
   <img src="https://img.shields.io/badge/Spell_Card-High_Quality-blueviolet?style=for-the-badge" alt="Spell Card">
