@@ -193,3 +193,19 @@ Trong bảng điều khiển này, bạn có thể tinh chỉnh hành vi của "
   - Biểu tượng đầu tiên cho phép/vô hiệu hóa "Dock", thanh dọc dành cho các "appicons" và ứng dụng của bạn.
   - Biểu tượng thứ hai cho phép bật/tắt "Clip", ô biểu tượng có hình cái kẹp giấy.
   - Biểu tượng cuối cùng cho phép bật/tắt "Drawer" - một "dockapp" đặc biệt dùng để chứa các biểu tượng ứng dụng theo chiều ngang.
+
+<a name="#workspace"></a>
+Workspace
+----------------------
+<p align="left">
+  <img src="/img/prefs8.png" alt="">
+</p>
+
+Thiết lập tùy chỉnh không gian làm việc trong WPrefs.app  
+Bảng điều khiển này định nghĩa các tính năng điều hướng bên trong không gian làm việc.
+- Điều hướng không gian làm việc (Workspace navigation)
+   - Việc chọn ô đánh dấu đầu tiên cho phép chuyển đổi (switching) sang không gian làm việc đầu tiên khi bạn chuyển tiếp qua không gian làm việc cuối cùng và ngược lại.
+   - Việc chọn ô đánh dấu thứ hai cho phép các cửa sổ được kéo (dragged) từ không gian làm việc này sang không gian làm việc khác.
+   - Việc chọn ô đánh dấu thứ ba sẽ khiến một không gian làm việc mới được tạo ra khi các cửa sổ được kéo (dragged) ra khỏi không gian làm việc cuối cùng đang tồn tại. <br>
+
+Một trình đơn lựa chọn cho phép bạn định nghĩa nơi tên không gian làm việc được hiển thị mỗi khi bạn di chuyển từ một không gian làm việc này sang một không gian làm việc khác (hoặc chọn không hiển thị tên không gian làm việc).
