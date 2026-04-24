@@ -570,7 +570,7 @@ Cho phép bạn đánh dấu chọn để:
 Menus
 ----------------------
 - [Danh sách các menu (Menu List)](#menu-list)
-- [menu cửa sổ gốc (Root window menu)](#menus)
+- [menu cửa sổ gốc (Root window menu)](#root-window-menu)
 - [menu danh sách cửa sổ (Window list menu)](#window-list-menu)
 - [menu không gian làm việc (Workspaces menu)](#workspaces-menu)
 - [menu biểu tượng ứng dụng (Application icon menu)](application-icon-menu)
@@ -587,5 +587,8 @@ Menu List
 
 💠 **Gợi ý:** Bạn có thể tùy chỉnh hoàn toàn nội dung của Root window menu bằng cách sử dụng WPrefs.app hoặc chỉnh sửa trực tiếp tệp cấu hình để tạo ra một danh sách các ứng dụng yêu thích theo ý mình đấy!
 
+<a name="#root-window-menu"></a>
+Root window menu
+----------------------
 
 
