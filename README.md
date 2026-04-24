@@ -85,6 +85,7 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
   - [Resizing](#resizing)
   - [Shading](#shading)
   - [Hiding](#hiding)
+  - [Closing](#closing)
 
 💠 **Giải thích thêm cho một số thuật ngữ:**
 - Window focus: Trong tin học, đây là trạng thái một cửa sổ đang "được chọn" để nhận lệnh từ bàn phím/chuột.
@@ -505,3 +506,17 @@ Việc nhấp chuột phải vào nút thu nhỏ (nút bên trái trên thanh ti
 Nếu cách này không hiệu quả, hãy sử dụng tổ hợp phím F11 (mặc định) để mở trình đơn danh sách cửa sổ.
 
 💠  **Sự khác biệt quan trọng:** Khác với "Miniaturizing" (thu nhỏ thành một biểu tượng nhỏ ở dưới màn hình), "Hiding" sẽ làm toàn bộ các cửa sổ của ứng dụng đó biến mất hoàn toàn khỏi không gian nhìn thấy, giúp màn hình của bạn cực kỳ gọn gàng. Bạn có thể tìm lại chúng nhanh chóng thông qua danh sách cửa sổ (F11).
+
+<a name="#Closing"></a>
+Closing
+----------------------
+
+Việc nhấp vào nút đóng (nút bên phải trên thanh tiêu đề) sẽ đóng cửa sổ đó lại. Khi nút đóng có hình dạng khác (không phải hình chữ X), điều đó có nghĩa là một ứng dụng đang chạy trong cửa sổ đó. Nhấp đúp vào nút đóng này sẽ buộc dừng (kills) ứng dụng. Thao tác này cũng có thể được thực hiện bằng cách nhấn giữ phím Ctrl + nhấp vào nút đóng.
+
+Thông thường, việc thoát một ứng dụng từ bên trong (ví dụ: thông qua trình đơn của chính ứng dụng đó) sẽ tốt hơn nhiều.
+
+💠  **Lưu ý quan trọng:** Nút đóng có hình X: Thường dùng cho các cửa sổ phụ hoặc hộp thoại
+- Nút đóng có hình ô vuông nhỏ (hoặc biểu tượng khác): Đại diện cho tiến trình chính của ứng dụng.
+
+Việc "kill" ứng dụng bằng cách nhấp đúp là biện pháp mạnh tay (giống như ```xkill```), nó có thể khiến bạn mất dữ liệu chưa kịp lưu. Vì vậy, hãy luôn ưu tiên sử dụng lệnh Exit hoặc Quit trong menu của ứng dụng trước nhé!
+
