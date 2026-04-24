@@ -26,7 +26,7 @@ Thông tin trong bài hướng dẫn này dựa trên phiên bản Window Maker 
 7. [Các mục khác (Miscellaneous)](#miscellaneous)
 
 <a name="preferences"></a>
-Preferences
+🛠️ Preferences
 ----------------------
 <p align="left">
   <img src="/img/wprefs.jpg" alt="Preferences">
