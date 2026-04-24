@@ -569,9 +569,20 @@ Cho phép bạn đánh dấu chọn để:
 <a name="#menus"></a>
 Menus
 ----------------------
-[Trình đơn cửa sổ gốc (Root window menu)](#menus)
-[Trình đơn danh sách cửa sổ (Window list menu)](#window-list-menu)
-[Trình đơn không gian làm việc (Workspaces menu)](#workspaces-menu)
-[Trình đơn biểu tượng ứng dụng (Application icon menu)](application-icon-menu)
+- [Danh sách các menu (Menu List)](menu-list)
+- [Trình đơn cửa sổ gốc (Root window menu)](#menus)
+- [Trình đơn danh sách cửa sổ (Window list menu)](#window-list-menu)
+- [Trình đơn không gian làm việc (Workspaces menu)](#workspaces-menu)
+- [Trình đơn biểu tượng ứng dụng (Application icon menu)](application-icon-menu)
 
+💠 **Gợi ý:** Bạn có thể tùy chỉnh hoàn toàn nội dung của Root window menu bằng cách sử dụng WPrefs.app hoặc chỉnh sửa trực tiếp tệp cấu hình để tạo ra một danh sách các ứng dụng yêu thích theo ý mình đấy!
 
+<a name="#menu-list"></a>
+Menu List
+----------------------
+- Trình đơn cửa sổ gốc (Root window menu): Đây là trình đơn chính của hệ thống, xuất hiện khi bạn nhấp chuột phải vào vùng trống trên màn hình nền (desktop). Nó thường chứa các lệnh chạy ứng dụng, cấu hình hệ thống và thoát chương trình.
+- Trình đơn danh sách cửa sổ (Window list menu): Hiển thị danh sách tất cả các cửa sổ đang mở trên tất cả các không gian làm việc. Giúp bạn chuyển đổi nhanh giữa các ứng dụng hoặc hiện lại các cửa sổ đang bị ẩn.
+- Trình đơn không gian làm việc (Workspaces menu): Cho phép bạn quản lý, thêm mới, xóa hoặc di chuyển nhanh giữa các màn hình ảo (workspaces).
+- rình đơn biểu tượng ứng dụng (Application icon menu): Xuất hiện khi bạn nhấp chuột phải vào biểu tượng của một ứng dụng đang chạy (nằm ở phía dưới màn hình hoặc trong Dock). Trình đơn này chứa các lệnh đặc thù cho ứng dụng đó như ẩn, đóng hoặc thiết lập thuộc tính biểu tượng.
+
+💠 **Gợi ý:** Bạn có thể tùy chỉnh hoàn toàn nội dung của Root window menu bằng cách sử dụng WPrefs.app hoặc chỉnh sửa trực tiếp tệp cấu hình để tạo ra một danh sách các ứng dụng yêu thích theo ý mình đấy!
