@@ -13,6 +13,7 @@ Mục lục
 5. [Clip](#clip)
 6. [Hình nền và chủ đề (Backgrounds and themes)](#backgrounds-and-themes)
 7. [Các mục khác (Miscellaneous)](#miscellaneous)
+
 <a name="preferences"></a>
 Preferences
 ----------------------
