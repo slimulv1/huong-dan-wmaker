@@ -26,7 +26,7 @@ Thông tin trong bài hướng dẫn này dựa trên phiên bản Window Maker 
 7. [Các mục khác (Miscellaneous)](#miscellaneous)
 
 <a name="preferences"></a>
-🛠️ Preferences
+🛠️ Preferences 🛠️
 ----------------------
 <p align="left">
   <img src="/img/wprefs.jpg" alt="Preferences">
@@ -363,7 +363,7 @@ Nếu cần thiết, tệp cấu hình mặc định nằm tại đường dẫn
 > Lưu ý nhỏ: Vì đây là tệp dạng "property list" (plist), chỉ cần thiếu một dấu ngoặc hay dấu chấm phẩy cũng có thể khiến Window Maker không khởi động được giao diện người dùng. Bạn nên sao lưu tệp này trước khi chỉnh sửa thủ công nhé!
 
 <a name="#windows"></a>
-Windows
+🛠️ Windows 🛠️
 ----------------------
 
 - [Mô tả (Description)](#Description)
