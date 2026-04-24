@@ -13,6 +13,7 @@ Possible values: [flat, flat-square, plastic, badge, for-the-badge, social] -->
 
 ## ⛩️ Lời tựa
 Bài hướng dẫn này nhằm giúp người dùng Window Maker hiểu rõ hơn về những tính năng tuyệt vời của trình quản lý cửa sổ này. Cuốn Hướng dẫn Sử dụng Chính thức (Users Guide) rất đáng để đọc; bạn có thể truy cập tài liệu này từ trang web của Window Maker. Ngoài ra, các bài hướng dẫn và mẹo khác cũng có thể được tìm thấy tại nhiều trang web khác nhau trên Internet. Việc tìm kiếm từ khóa "Window Maker guide how-to" có thể cung cấp cho bạn thêm nhiều thông tin hữu ích.  
+
 Thông tin trong bài hướng dẫn này dựa trên phiên bản Window Maker 0.95.3. Bạn hãy kiểm tra phiên bản mình đang dùng bằng cách mở WPrefs.app (công cụ Tùy chỉnh Window Maker). Số phiên bản được hiển thị ngay bên dưới tiêu đề "Window Maker Preferences" tại cửa sổ WPrefs chính. Bạn cũng có thể chạy lệnh wmaker --version trong cửa sổ terminal (không nhập dấu ngoặc kép). Lệnh này sẽ trả về số phiên bản Window Maker hiện đang được cài đặt trên máy.
 
 📜 Mục lục
@@ -34,6 +35,7 @@ WPrefs.app chính là trái tim của quá trình cấu hình trong Window Maker
 <p align="left">
   <img src="/img/dock_tile.png" alt="dock title">
 </p>
+
 Tuy nhiên, tùy thuộc vào bản phân phối Linux bạn đang dùng, vị trí, mục trình đơn (menu) hoặc biểu tượng có thể sẽ khác nhau. Thông thường, các bản phân phối Linux đặt WPrefs ở vị trí biểu tượng thứ hai hoặc thứ ba trong - cột Dock theo mặc định, nằm ngay phía trên hoặc phía dưới biểu tượng terminal.<br>
 Nhấp đúp chuột vào biểu tượng này để mở cửa sổ WPrefs.app. Dọc theo phía trên cùng của cửa sổ là một dãy các biểu tượng, mỗi biểu tượng tương ứng với một nhóm các tùy chọn thiết lập. Ở góc dưới bên trái của cửa sổ  
 WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ giúp dạng bong bóng). Phần lớn nội dung dưới đây được trích dẫn trực tiếp từ các hộp thoại trợ giúp này. <br> 
@@ -82,6 +84,7 @@ Window focus
 </p>
 
 Điều khiển tiêu điểm cửa sổ (Window Focus) trong WPrefs.app  
+
 Biểu tượng đầu tiên từ phía bên trái dùng để điều khiển cách các cửa sổ nhận tiêu điểm (cách chúng được kích hoạt).
 - Chế độ tiêu điểm đầu vào (có hai lựa chọn):
   - Thủ công (Manual): Nhấp chuột vào cửa sổ để thiết lập tiêu điểm nhập liệu từ bàn phím.
@@ -108,6 +111,7 @@ Window handling
 </p>
 
 Tùy chỉnh xử lý cửa sổ trong WPrefs.app  
+
 Nhấp vào biểu tượng thứ hai để lựa chọn các tùy chọn xử lý cửa sổ. Biểu tượng này mở ra một bảng điều khiển cho phép bạn định nghĩa vị trí mặc định và các thuộc tính của cửa sổ trong không gian làm việc.
 - Sắp xếp cửa sổ (Window placement)
   - Bạn có thể sử dụng các thanh trượt xung quanh hình mô phỏng màn hình để thay đổi vị trí ban đầu. Công cụ này cho phép Window Maker sắp xếp thứ tự cửa sổ trên màn hình theo các chế độ: Ngẫu nhiên (Random), Thủ công (Manual), Bậc thang (Cascade) hoặc Thông minh (Smart). Chế độ mặc định là Tự động (Automatic).
@@ -141,6 +145,7 @@ Menu
 </p>
 
 Tùy chỉnh trình đơn (menu) trong WPrefs.app  
+
 Bảng điều khiển này cho phép bạn thiết lập tốc độ cuộn trình đơn và cách căn lề của trình đơn con (submenu) so với trình đơn cha. Ngoài ra, có ba ô đánh dấu (checkbox) được cung cấp với các chức năng sau:
 - Ô trên cùng: Bắt buộc các trình đơn con luôn mở bên trong phạm vi màn hình thay vì phải cuộn khi chúng bị tràn ra ngoài cạnh màn hình.
 - Ô ở giữa: Cho phép các trình đơn con được mở tràn ra ngoài màn hình, nhưng sẽ khiến các trình đơn này tự động cuộn lại khi con trỏ chuột di chuyển lên trên chúng. Thiết lập này cũng rất có giá trị nếu bạn sử dụng tính năng "tear off" (tách rời trình đơn và đặt cố định trên màn hình). Trong trường hợp đó, bạn có thể muốn "park" trình đơn ở sát mép màn hình (ví dụ chỉ để lộ thanh tiêu đề) và để nó hiện ra đầy đủ khi bạn di chuột qua. Điều này rất tiện lợi trong một số quy trình làm việc, chẳng hạn như khi bạn mở nhiều ứng dụng và sử dụng trình đơn danh sách cửa sổ để chuyển đổi qua lại giữa chúng.
@@ -159,6 +164,7 @@ Icon
 </p>
 
 Tùy chỉnh biểu tượng trong WPrefs.app  
+
 Thiết lập các tùy chọn xử lý biểu tượng hoặc cửa sổ thu nhỏ (miniwindow).
 - Vị trí biểu tượng (Icon positioning)
   - Khu vực này định nghĩa vị trí ban đầu mà các cửa sổ thu nhỏ (miniwindows) hoặc biểu tượng sẽ được hiển thị: dưới cùng, trên cùng, bên phải, bên trái...
@@ -185,6 +191,7 @@ Ergonomy
 </p>
 
 Thiết lập ergonomy trong WPrefs.app  
+
 Nhiều loại thông tin khác nhau được định nghĩa trong bảng điều khiển này.
 - Hiển thị kích thước (Size display)
   - Window Maker cung cấp một hộp thông tin cho bạn biết về kích thước của một cửa sổ trong quá trình thay đổi kích thước (resizing). Bạn có thể chọn hiển thị này ở (a) chính giữa màn hình, (b) chính giữa màn hình, (c) chính giữa cửa sổ đang được thay đổi kích thước (resized), (d) ở cạnh và đáy cửa sổ dưới dạng hiển thị kích thước giống như bản vẽ kỹ thuật hoặc (e) không hiển thị.
@@ -205,6 +212,7 @@ Search Path
 </p>
 
 Thiết lập đường dẫn tìm kiếm biểu tượng và ảnh mảng (pixmap) trong WPrefs.app  
+
 Bảng điều khiển này được sử dụng để thêm hoặc xóa các đường dẫn thư mục dùng cho việc tìm kiếm các biểu tượng và "pixmaps". Những đường dẫn này được sử dụng trong các hộp thoại settings cho "dockapps" và các biểu tượng ứng dụng đã được đưa vào dock (docked), vì vậy việc có một bộ đường dẫn được định nghĩa đầy đủ và chuẩn xác là rất quan trọng. Điều này có thể đòi hỏi một số can thiệp thủ công, đặc biệt là khi thiết lập ban đầu (initial setup), vì một số đường dẫn mặc định sẽ không tồn tại trên hệ thống của bạn, trong khi những đường dẫn khác chưa được định nghĩa trước thì lại có sẵn. Hãy sử dụng các hộp thoại "add" (thêm) và "remove" (xóa) để cấu hình dựa theo những gì thực sự có sẵn trên máy.
 
 <a name="#thanh-dock"></a>
@@ -215,6 +223,7 @@ Thanh Dock
 </p>
 
 Thiết lập tùy chỉnh "Dock" trong WPrefs.app  
+
 Trong bảng điều khiển này, bạn có thể tinh chỉnh hành vi của "Dock"/"Clip"/"Drawer".
 - Độ trễ tự động thu gọn Clip và độ trễ tự động nổi lên của Clip (Clip autocollapsing delays and Clip autoraising delays) cho phép bạn chọn khoảng thời gian trễ cho việc mở rộng (expansion), thu gọn (collapsing), nổi lên (raising) và hạ xuống (lowering) của "Clip".
 - Dock/Clip/Drawer
@@ -230,6 +239,7 @@ Workspace
 </p>
 
 Thiết lập tùy chỉnh không gian làm việc trong WPrefs.app  
+
 Bảng điều khiển này định nghĩa các tính năng điều hướng bên trong không gian làm việc.
 - Điều hướng không gian làm việc (Workspace navigation)
    - Việc chọn ô đánh dấu đầu tiên cho phép chuyển đổi (switching) sang không gian làm việc đầu tiên khi bạn chuyển tiếp qua không gian làm việc cuối cùng và ngược lại.
@@ -246,6 +256,7 @@ Other
 </p>
 
 Thiết lập cấu hình không gian làm việc khác trong WPrefs.app  
+
 Bảng điều khiển này thiết lập tốc độ trượt biểu tượng, tốc độ hoạt ảnh cuộn lên (shade), làm mịn hình ảnh và kiểu điều khiển (nút bấm) trên thanh tiêu đề. Các hoạt ảnh và âm thanh cũng được định nghĩa tại đây.
 - Tốc độ trượt biểu tượng (Icon slide speed): Chọn biểu tượng bên trái sẽ cho kết quả chậm nhất, chọn biểu tượng bên phải sẽ cho kết quả nhanh nhất.
 - Tốc độ hoạt ảnh cuộn lên (Shade animation speed): Tương tự như tốc độ trượt biểu tượng.
@@ -262,7 +273,9 @@ Trình quản lý ứng dụng (Applications menu)
 </p>
 
 Cấu hình trình đơn ứng dụng trong WPrefs.app  
-Trong bảng điều khiển này, trình đơn ứng dụng và các lệnh để khởi chạy từng ứng dụng có thể được định nghĩa. Bảng điều khiển này đã được thay đổi kể từ phiên bản 0.63 trở đi. Hiện tại, nó hiển thị trình đơn thực tế, từ đó cho phép chỉnh sửa trực tiếp (direct editing). Việc này chỉ có thể thực hiện được nếu trình đơn ở định dạng "property list". Các trình đơn ở định dạng văn bản thuần túy (plain text format) không thể chỉnh sửa được trong WPrefs. Hãy kiểm tra tệp "README" trong thư mục Window Maker để biết cách sử dụng định dạng này hay định dạng kia.  
+
+Trong bảng điều khiển này, trình đơn ứng dụng và các lệnh để khởi chạy từng ứng dụng có thể được định nghĩa. Bảng điều khiển này đã được thay đổi kể từ phiên bản 0.63 trở đi. Hiện tại, nó hiển thị trình đơn thực tế, từ đó cho phép chỉnh sửa trực tiếp (direct editing). Việc này chỉ có thể thực hiện được nếu trình đơn ở định dạng "property list". Các trình đơn ở định dạng văn bản thuần túy (plain text format) không thể chỉnh sửa được trong WPrefs. Hãy kiểm tra tệp "README" trong thư mục Window Maker để biết cách sử dụng định dạng này hay định dạng kia.
+
 > Gợi ý nhỏ cho bạn: Nếu bạn đang mở WPrefs mà thấy phần này bị xám (không chỉnh sửa được), có khả năng file menu của bạn vẫn đang ở dạng script cũ. Bạn có thể dùng lệnh ```bash wmmenugen ``` để tạo lại menu mới tương thích với giao diện đồ họa này đấy!
 
 <a name="#keyboard-shortcut"></a>
@@ -276,3 +289,23 @@ Phím tắt bàn phím (Keyboard shortcut)
 Thiết lập phím tắt bàn phím trong WPrefs.app
 
 Nhiều hành động trong Window Maker đã được định nghĩa sẵn các phím tắt bàn phím. Các hành động này chủ yếu liên quan đến cửa sổ và không gian làm việc. Việc thay đổi, thêm hoặc xóa các phím tắt có thể được thực hiện trong bảng điều khiển này. Việc định nghĩa một phím tắt có thể được thực hiện một cách tương tác (interactively), thông qua việc ghi lại (capturing) tổ hợp phím.
+
+<a name="#mouse"></a>
+Chuột (Mouse)
+----------------------
+<p align="left">
+  <img src="/img/prefs11.png" alt="">
+</p>
+
+Cấu hình chuột trong WPrefs.app
+
+"Mouse grab modifier" đại diện cho phím tắt bàn phím được sử dụng cho các hành động như kéo (dragging) cửa sổ bằng chuột hoặc nhấp chuột bên trong cửa sổ. "Mod1 (Alt)" là giá trị mặc định.
+
+Bảng điều khiển này thiết lập tốc độ chuột và độ trễ nhấp đúp. Các liên kết nút chuột có thể được định nghĩa và có thể được vô hiệu hóa hoặc kích hoạt.
+
+Thiết lập mặc định liên kết nút chuột phải với trình đơn ứng dụng, nút giữa với trình đơn danh sách cửa sổ và nút trái với việc chọn cửa sổ (tiêu điểm (focus)). Tất nhiên, với loại chuột hai nút, liên kết nút giữa sẽ không hoạt động. Tuy nhiên, trên một số hệ điều hành, việc nhấn cả hai nút cùng lúc sẽ cho kết quả tương tự như khi sử dụng nút giữa.
+
+Bắt đầu từ phiên bản 0.65 trở đi, con lăn chuột có thể được sử dụng để chuyển đổi (switch) không gian làm việc. Đây không phải là hành vi mặc định và phải được kích hoạt tại đây.
+
+Nếu chuột có nhiều hơn 3 nút và/hoặc có con lăn nghiêng (tilt), chúng có thể được liên kết với một số hành động nhất định.
+
