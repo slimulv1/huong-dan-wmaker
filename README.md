@@ -61,13 +61,13 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
 - [Thanh Dock](#thanh-dock)
 - [Không gian làm việc (Workspace)](#workspace) 
 - [Other](#other)
-- [Applications menu)](#applications-menu)
-- [Keyboard shortcut](#keyboard-shortcut)
-- [Mouse](#mouse)
-- [Appearance (Giao diện)](#appearance)
-- [Font configuration](#font-configuration)
-- [Expert user)](#expert-user)
-- [Editing the configuration file](#editing-the-configuration-file)
+- [Menu ứng dụng (Applications menu)](#applications-menu)
+- [Phím tắt bàn phím (Keyboard shortcut)](#keyboard-shortcut)
+- [Chuột (Mouse)](#mouse)
+- [Giao diện (Appearance)](#appearance)
+- [Cấu hình phông chữ (Font configuration)](#font-configuration)
+- [Người dùng chuyên gia (Expert user))](#expert-user)
+- [Chỉnh sửa tệp cấu hình (Editing the configuration file)](#editing-the-configuration-file)
 
 💠 Giải thích thêm cho một số thuật ngữ:
 - Window focus: Trong tin học, đây là trạng thái một cửa sổ đang "được chọn" để nhận lệnh từ bàn phím/chuột.
@@ -358,4 +358,28 @@ Editing the configuration file
 
 Nếu cần thiết, tệp cấu hình mặc định nằm tại đường dẫn ``` $(HOME)/GNUstep/Defaults/WindowMaker ``` có thể được chỉnh sửa bằng tay. Tệp này là một cơ sở dữ liệu với cú pháp "property list". Khi bạn chọn một tùy chọn trong WPrefs.app, lựa chọn đó sẽ được ghi lại vào tệp này. Khi thay đổi tệp mặc định này, việc tuân thủ đúng cú pháp là vô cùng quan trọng.
 > Lưu ý nhỏ: Vì đây là tệp dạng "property list" (plist), chỉ cần thiếu một dấu ngoặc hay dấu chấm phẩy cũng có thể khiến Window Maker không khởi động được giao diện người dùng. Bạn nên sao lưu tệp này trước khi chỉnh sửa thủ công nhé!
+
+Windows
+
+    Description
+
+    Focusing
+
+    Reordering
+
+    Moving
+
+    Maximizing
+
+    Miniaturizing
+
+    Resizing
+
+    Shading
+
+    Hiding
+
+    Closing
+
+    Commands menu
 
