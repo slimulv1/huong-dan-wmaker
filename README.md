@@ -249,7 +249,7 @@ Bảng điều khiển này định nghĩa các tính năng điều hướng bê
 Một menu lựa chọn cho phép bạn định nghĩa nơi tên không gian làm việc được hiển thị mỗi khi bạn di chuyển từ một không gian làm việc này sang một không gian làm việc khác (hoặc chọn không hiển thị tên không gian làm việc).
 
 <a name="#testa"></a>
-Other
+testa
 ----------------------
 
 
