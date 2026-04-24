@@ -375,3 +375,13 @@ Windows
 - [Đóng (Closing)](Closing)
 - [Menu lệnh (Commands menu)](Commands-menu)
 
+<a name="#Descriptionr"></a>
+Description
+----------------------
+
+Bố cục chung của một cửa sổ:
+- Thanh tiêu đề (Titlebar): Cung cấp tên của ứng dụng, tài liệu hoặc cửa sổ. Màu sắc của nó (thường là) cho biết trạng thái tiêu điểm (focus) (cửa sổ đang hoạt động hoặc không hoạt động). Tôi nói là (thường là) vì một số kiểu dáng và chủ đề không cung cấp các màu sắc khác nhau cho cửa sổ được lấy tiêu điểm (focused) hoặc không được lấy tiêu điểm (unfocused) - mặc dù trường hợp này rất hiếm (và tôi xin nói thêm là, thật tàn nhẫn!).
+- Nút thu nhỏ (Miniaturize button): Nhấp vào nút bên trái của thanh tiêu đề sẽ tạo biểu tượng (iconifies) cho cửa sổ.
+- Nút đóng (Close button): Nhấp vào nút bên phải của thanh tiêu đề sẽ đóng cửa sổ hoặc buộc dừng ứng dụng.
+- Thanh thay đổi kích thước (Resizebar): Phần dưới cùng của cửa sổ. Kéo (dragging) thanh thay đổi kích thước bằng chuột sẽ thay đổi kích thước (resizes) cửa sổ.
+- Vùng ứng dụng (Client area): Nội dung của cửa sổ. Nó có thể là một ứng dụng, một đoạn văn bản, một bức tranh...
