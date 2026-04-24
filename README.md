@@ -52,13 +52,6 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
   WPrefs.app sau khi khởi chạy
   
 ## 🎨 Các thiết lập tùy chỉnh hiện có
-- [🌸 Window Maker: The Phantasmagoria of Desktop Customization 🌸](#-window-maker-the-phantasmagoria-of-desktop-customization-)
-- [【 Hướng dẫn cách dùng Window Maker  】](#-hướng-dẫn-cách-dùng-window-maker--)
-  - [⛩️ Lời tựa](#️-lời-tựa)
-  - [📜 Mục lục](#-mục-lục)
-  - [Preferences](#preferences)
-  - [WPrefs.app](#wprefsapp)
-  - [🎨 Các thiết lập tùy chỉnh hiện có](#-các-thiết-lập-tùy-chỉnh-hiện-có)
   - [Window focus](#window-focus)
   - [Window handling](#window-handling)
   - [Menu](#menu)
