@@ -60,7 +60,7 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
 - [Đường dẫn tìm kiếm (Search Path)](#search-path)
 - [Thanh Dock](#thanh-dock)
 - [Không gian làm việc (Workspace)](#workspace)
-- [Khác (Other)](#other)
+- [Khác (Other)](#Other)
 - [Applications menu](#test)
 - [Keyboard shortcut](#keyboard-shortcut)
 - [Mouse](#mouse)
@@ -247,7 +247,7 @@ Bảng điều khiển này định nghĩa các tính năng điều hướng bê
 
 Một menu lựa chọn cho phép bạn định nghĩa nơi tên không gian làm việc được hiển thị mỗi khi bạn di chuyển từ một không gian làm việc này sang một không gian làm việc khác (hoặc chọn không hiển thị tên không gian làm việc).
 
-<a name="#other"></a>
+<a name="#Other"></a>
 Other
 ----------------------
 <p align="left">
