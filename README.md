@@ -61,7 +61,7 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
 - [Thanh Dock](#thanh-dock)
 - [Không gian làm việc (Workspace)](#workspace)
 - [Khác (Other)](#other)
-- [Trình quản lý ứng dụng (Applications menu)](#apps-menu)
+- [Trình quản lý ứng dụng (Applications menu)](#apps)
 - [Phím tắt bàn phím (Keyboard shortcut)](#keyboard-shortcut)
 - [Chuột (Mouse)](#mouse)
 - [Giao diện (Appearance)](#appearance)
@@ -264,7 +264,7 @@ Bảng điều khiển này thiết lập tốc độ trượt biểu tượng, 
 - Làm mịn hình ảnh (Smooth scaling): Nếu được chọn, tính năng này sẽ trung hòa hiệu ứng vỡ ảnh (pixelization) trên các ảnh nền. Tác dụng phụ là làm chậm quá trình tải ảnh nền.
 - Phối màu cho màn hình 8bpp (Dithering colormap for 8bpp): Dành cho các màn hình 8-bit (liệu còn ai sử dụng loại này không?), tùy chọn này kích hoạt khả năng phối màu (dithering) và thay đổi số lượng màu sắc dự phòng cho các ứng dụng hoặc cho Window Maker. Thiết lập "Default" hầu như luôn mang lại kết quả tốt nhất.
 
-<a name="#apps-menu"></a>
+<a name="#apps"></a>
 Trình quản lý ứng dụng (Applications menu)
 ----------------------
 <p align="left">
