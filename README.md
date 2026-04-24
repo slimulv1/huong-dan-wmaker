@@ -168,3 +168,20 @@ Nhiều loại thông tin khác nhau được định nghĩa trong bảng điề
   - Việc chọn các ô đánh dấu sẽ hiển thị văn bản bong bóng cho: tiêu đề cửa sổ không đầy đủ, tiêu đề cửa sổ thu nhỏ (miniwindow), các biểu tượng ứng dụng và "dock icon", hoặc trợ giúp nội bộ. Điều này có thể hữu ích cho người dùng mới nhưng nhiều người cảm thấy việc các bong bóng trợ giúp hiện ra khắp nơi trên màn hình nền sẽ nhanh chóng gây khó chịu. Tôi thường sử dụng các tùy chọn tiêu đề cửa sổ không đầy đủ và tiêu đề cửa sổ thu nhỏ (miniwindow) và không dùng các tùy chọn khác.
 - Đường viền không gian làm việc (Workspace border)
   - Bạn có thể thiết lập một đường viền nhỏ cho không gian làm việc. Điều này cho phép bạn dễ dàng truy cập "clip" (chẳng hạn) khi các cửa sổ đang được phóng to (maximized).
+
+<a name="#search-path"></a>
+Search Path
+----------------------
+<p align="left">
+  <img src="/img/prefs6.png" alt="">
+</p>
+
+Thiết lập đường dẫn tìm kiếm biểu tượng và ảnh mảng (pixmap) trong WPrefs.app  
+Bảng điều khiển này được sử dụng để thêm hoặc xóa các đường dẫn thư mục dùng cho việc tìm kiếm các biểu tượng và "pixmaps". Những đường dẫn này được sử dụng trong các hộp thoại settings cho "dockapps" và các biểu tượng ứng dụng đã được đưa vào dock (docked), vì vậy việc có một bộ đường dẫn được định nghĩa đầy đủ và chuẩn xác là rất quan trọng. Điều này có thể đòi hỏi một số can thiệp thủ công, đặc biệt là khi thiết lập ban đầu (initial setup), vì một số đường dẫn mặc định sẽ không tồn tại trên hệ thống của bạn, trong khi những đường dẫn khác chưa được định nghĩa trước thì lại có sẵn. Hãy sử dụng các hộp thoại "add" (thêm) và "remove" (xóa) để cấu hình dựa theo những gì thực sự có sẵn trên máy.
+
+<a name="#dock"></a>
+Dock
+----------------------
+<p align="left">
+  <img src="/img/prefs7.png" alt="">
+</p>
