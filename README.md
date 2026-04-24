@@ -20,7 +20,7 @@ Thông tin trong bài hướng dẫn này dựa trên phiên bản Window Maker 
 1. [Tùy chỉnh (Preferences)](#preferences)
 2. [Cửa sổ (Windows)](#windows)
 3. [Menus (Menus)](#menus)
-4. [Dock](#dock1)
+4. [Dock](#dock)
 5. [Clip](#clip)
 6. [Hình nền và chủ đề (Backgrounds and themes)](#backgrounds-and-themes)
 7. [Các mục khác (Miscellaneous)](#miscellaneous)
@@ -363,7 +363,7 @@ Nếu cần thiết, tệp cấu hình mặc định nằm tại đường dẫn
 > Lưu ý nhỏ: Vì đây là tệp dạng "property list" (plist), chỉ cần thiếu một dấu ngoặc hay dấu chấm phẩy cũng có thể khiến Window Maker không khởi động được giao diện người dùng. Bạn nên sao lưu tệp này trước khi chỉnh sửa thủ công nhé!
 
 <a name="#windows"></a>
-Windows
+WINDOWS
 ----------------------
 
 - [Mô tả (Description)](#Description)
@@ -603,9 +603,9 @@ menu này dùng để:
 - Quản lý các đặc tính khác của không gian làm việc bằng các tiện ích X tiêu chuẩn (như ```xprop```, ```xfontsel```, ```xcmap```...).
 
 **Cấu hình menu**
-Nội dung của trình đơn hoàn toàn có thể cấu hình được, bằng cách sử dụng WPrefs.app hoặc chỉnh sửa trực tiếp tệp trình đơn dạng văn bản thuần túy (plain text). Hướng dẫn cách cấu hình cho từng phương thức có thể được tìm thấy trong thư mục WindowMaker của bản phân phối.
+Nội dung của menu hoàn toàn có thể cấu hình được, bằng cách sử dụng WPrefs.app hoặc chỉnh sửa trực tiếp tệp menu dạng văn bản thuần túy (plain text). Hướng dẫn cách cấu hình cho từng phương thức có thể được tìm thấy trong thư mục WindowMaker của bản phân phối.
 
-**Lưu ý kỹ thuật:** Để sử dụng được WPrefs.app, các trình đơn phải ở định dạng "property list" (```plmenu```). Nếu bạn đang có một trình đơn dạng văn bản cũ, bạn có thể sử dụng một công cụ chuyển đổi có sẵn tên là ```wm-oldmenu2new``` để chuyển sang định dạng mới này.
+**Lưu ý kỹ thuật:** Để sử dụng được WPrefs.app, các menu phải ở định dạng "property list" (```plmenu```). Nếu bạn đang có một menu dạng văn bản cũ, bạn có thể sử dụng một công cụ chuyển đổi có sẵn tên là ```wm-oldmenu2new``` để chuyển sang định dạng mới này.
 
 💠 **Mẹo nhỏ:** Nếu bạn thường xuyên cài đặt phần mềm mới, việc học cách biên tập tệp ```plmenu``` sẽ giúp bạn sắp xếp các ứng dụng vào từng mục (như Internet, Graphics, Editors) một cách khoa học và nhanh chóng hơn nhiều so với việc dùng giao diện đồ họa đấy!
 
@@ -616,11 +616,11 @@ Window list menu
   <img src="/img/menu_window_list.png" alt="Root window menu">
 </p>
 
-Trình đơn danh sách cửa sổ (Window list menu)
+menu danh sách cửa sổ (Window list menu)
 
-Việc nhấp chuột giữa vào một vùng trống trên không gian làm việc sẽ mở trình đơn danh sách cửa sổ. Với chuột hai nút, nhấp cả hai nút cùng lúc thường sẽ cho kết quả tương tự. F11 là phím tắt mặc định để mở trình đơn này.
+Việc nhấp chuột giữa vào một vùng trống trên không gian làm việc sẽ mở menu danh sách cửa sổ. Với chuột hai nút, nhấp cả hai nút cùng lúc thường sẽ cho kết quả tương tự. F11 là phím tắt mặc định để mở menu này.
 
-Trình đơn này liệt kê tất cả các cửa sổ — dù đang hoạt động hay không — trên mọi không gian làm việc.
+menu này liệt kê tất cả các cửa sổ — dù đang hoạt động hay không — trên mọi không gian làm việc.
 - Vị trí cửa sổ: Tên của không gian làm việc chứa cửa sổ đó được hiển thị ở bên phải tên cửa sổ.
 - Cửa sổ hiện tại: Cửa sổ đang được lấy tiêu điểm (focus) sẽ được đánh dấu bằng một ký hiệu hình kim cương (♦) ở bên trái tên cửa sổ.
 - Thao tác nhanh: Nhấp vào bất kỳ cửa sổ nào trong danh sách sẽ ngay lập tức lấy tiêu điểm cho cửa sổ đó, đưa nó lên phía trước và đưa bạn đến đúng không gian làm việc nơi cửa sổ đó đang tọa lạc.
@@ -634,15 +634,15 @@ Workspaces menu
   <img src="/img/menu_workspaces.png" alt="Root window menu">
 </p>
 
-**Trình đơn không gian làm việc (Workspaces menu)**
-Trình đơn không gian làm việc là một phần của trình đơn gốc (trình đơn ứng dụng). Mục này có ba tùy chọn chính: New (Mới), Destroy last (Xóa mục cuối) và Last used (Sử dụng gần đây nhất).
+**menu không gian làm việc (Workspaces menu)**
+menu không gian làm việc là một phần của menu gốc (menu ứng dụng). Mục này có ba tùy chọn chính: New (Mới), Destroy last (Xóa mục cuối) và Last used (Sử dụng gần đây nhất).
 - New: Tạo một không gian làm việc mới và tự động chuyển bạn sang đó.
 - Destroy last: Xóa không gian làm việc cuối cùng trong danh sách, với điều kiện không có cửa sổ nào đang mở bên trong nó.
 - Last used: Chuyển về không gian làm việc mà bạn vừa truy cập trước đó.
 
-Mỗi không gian làm việc sẽ có một mục tương ứng trong trình đơn này. Không gian làm việc đang hoạt động được đánh dấu bằng một hình kim cương ở bên trái tên hoặc số thứ tự. Nhấp vào bất kỳ mục nào sẽ giúp bạn chuyển đổi nhanh giữa các màn hình ảo.
+Mỗi không gian làm việc sẽ có một mục tương ứng trong menu này. Không gian làm việc đang hoạt động được đánh dấu bằng một hình kim cương ở bên trái tên hoặc số thứ tự. Nhấp vào bất kỳ mục nào sẽ giúp bạn chuyển đổi nhanh giữa các màn hình ảo.
 **Cách đổi tên không gian làm việc:**
-1. "Ghim" (stick) trình đơn bằng cách nhấp chuột trái vào thanh tiêu đề của trình đơn đó.
+1. "Ghim" (stick) menu bằng cách nhấp chuột trái vào thanh tiêu đề của menu đó.
 2. Nhấn giữ Ctrl + nhấp chuột vào mục muốn đổi tên để chuyển sang chế độ chỉnh sửa.
 3. Nhập tên mới và nhấn Enter để lưu (hoặc Escape để hủy).
 
@@ -660,11 +660,11 @@ Application icon menu
   <img src="/img/menu_application_icon.png" alt="Root window menu">
 </p>
 
-Trình đơn biểu tượng ứng dụng (Application icon menu)
+menu biểu tượng ứng dụng (Application icon menu)
 
-Nhấp chuột phải vào một biểu tượng trong Dock sẽ mở ra một trình đơn để tùy chỉnh ứng dụng đó. Đối với các ứng dụng đã được đưa vào Dock (docked) nhưng chưa chạy, một số tùy chọn sẽ bị mờ đi (greyed out).
+Nhấp chuột phải vào một biểu tượng trong Dock sẽ mở ra một menu để tùy chỉnh ứng dụng đó. Đối với các ứng dụng đã được đưa vào Dock (docked) nhưng chưa chạy, một số tùy chọn sẽ bị mờ đi (greyed out).
 
-**1. Trình đơn con của Dock (Dock submenu)**
+**1. menu con của Dock (Dock submenu)**
 Đây là các tùy chọn mang tính toàn cục cho Dock, bao gồm ba chế độ:
 - Normal (Bình thường): Dock hoạt động mặc định; nó có thể bị các cửa sổ khác che khuất, và việc nhấp vào bất kỳ mục nào trên Dock sẽ đưa nó nổi lên trên.
 - Auto raise & lower (Tự động nổi lên/ẩn xuống): Tương tự chế độ bình thường, nhưng bạn không cần nhấp chuột—chỉ cần di chuyển con trỏ chuột vào phần hiển thị của Dock hoặc các biểu tượng là nó sẽ tự động nổi lên.
@@ -679,4 +679,10 @@ Nhấp chuột phải vào một biểu tượng trong Dock sẽ mở ra một t
 - Kill (Buộc dừng): Đóng ứng dụng ngay lập tức. Chỉ nên sử dụng khi thật sự cần thiết (như khi ứng dụng bị treo).
 
 💠 **Có thể bạn chưa biết:** Tính năng "Settings" trong menu này cực kỳ hữu dụng để tùy biến giao diện. Bạn có thể gán bất kỳ hình ảnh ```.xpm``` hoặc ```.png``` nào cho biểu tượng ứng dụng để bộ Dock của mình trông cá tính và đồng bộ hơn!
+
+<a name="#dock"></a>
+DOCK
+----------------------
+
+
 
