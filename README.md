@@ -55,6 +55,7 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
 - [Tiêu điểm cửa sổ (Window focus)](#window-focus)
 - [Xử lý cửa sổ (Window handling)](#window-handling)
 - [menu](#menu)
+- [testa](#testa)
 - [Biểu tượng (Icon)](#icon)
 - [Ergonomy](#ergonomy)
 - [Đường dẫn tìm kiếm (Search Path)](#search-path)
@@ -246,6 +247,11 @@ Bảng điều khiển này định nghĩa các tính năng điều hướng bê
    - Việc chọn ô đánh dấu thứ ba sẽ khiến một không gian làm việc mới được tạo ra khi các cửa sổ được kéo (dragged) ra khỏi không gian làm việc cuối cùng đang tồn tại. <br>
 
 Một menu lựa chọn cho phép bạn định nghĩa nơi tên không gian làm việc được hiển thị mỗi khi bạn di chuyển từ một không gian làm việc này sang một không gian làm việc khác (hoặc chọn không hiển thị tên không gian làm việc).
+
+<a name="#testa"></a>
+Other
+----------------------
+
 
 <a name="#Other"></a>
 Other
