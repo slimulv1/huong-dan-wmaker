@@ -81,6 +81,7 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
   - [Reordering](#reordering)
   - [Moving](#moving)
   - [Maximizing](#maximizing)
+  - [Miniaturizing](#miniaturizing)
 
 💠 Giải thích thêm cho một số thuật ngữ:
 - Window focus: Trong tin học, đây là trạng thái một cửa sổ đang "được chọn" để nhận lệnh từ bàn phím/chuột.
@@ -452,3 +453,15 @@ Maximizing
 Để ngăn một cửa sổ đã phóng to (maximized) che khuất "dock", tùy chọn "Keep on top" phải được chọn từ trình đơn của "dock".
 
 💠 Mẹo nhỏ: Nếu bạn muốn cửa sổ tự động tránh vùng không gian của "dock" mà không cần đặt "dock" luôn nổi lên trên, bạn có thể thiết lập "Workspace border" trong WPrefs.app để tạo một khoảng trống an toàn tại cạnh màn hình nơi đặt thanh "dock" của mình.
+
+<a name="#Miniaturizing"></a>
+Miniaturizing
+----------------------
+
+Việc nhấp vào nút thu nhỏ (nút bên trái trên thanh tiêu đề) sẽ thu gọn cửa sổ thành một cửa sổ thu nhỏ (miniwindow) bao gồm một biểu tượng và một tiêu đề, sau đó đặt nó ở phía dưới cùng của màn hình. Nhấn phím tắt đã được chỉ định cũng mang lại kết quả tương tự. (Mặc định là Meta + m.)
+
+Cửa sổ thu nhỏ (miniwindow) khác với biểu tượng ứng dụng ở chỗ nó không thể được đưa vào dock (docked).
+- Nhấp đúp vào miniwindow: khôi phục cửa sổ đã thu nhỏ về trạng thái ban đầu.
+- Nhấp đúp chuột giữa vào biểu tượng ứng dụng: khôi phục tất cả các cửa sổ đã thu nhỏ và bị ẩn của ứng dụng đó.
+
+💠 Bạn có biết? Trong Window Maker, các cửa sổ thu nhỏ này thường xếp hàng ngăn nắp ở đáy màn hình. Nếu bạn thấy chúng chiếm quá nhiều diện tích, bạn có thể cân nhắc sử dụng tính năng "Hiding" (Ẩn) để dọn dẹp không gian làm việc gọn gàng hơn mà vẫn giữ ứng dụng chạy ngầm.
