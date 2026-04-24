@@ -278,13 +278,14 @@ Trong bảng điều khiển này, menu ứng dụng và các lệnh để khở
 
 > Gợi ý nhỏ cho bạn: Nếu bạn đang mở WPrefs mà thấy phần này bị xám (không chỉnh sửa được), có khả năng file menu của bạn vẫn đang ở dạng script cũ. Bạn có thể dùng lệnh ```bash wmmenugen ``` để tạo lại menu mới tương thích với giao diện đồ họa này đấy!
 
+
+
 <a name="#keyboard-shortcut"></a>
-Phím tắt bàn phím (Keyboard shortcut)
+Keyboard shortcut
 ----------------------
 <p align="left">
-  <img src="/img/prefs11.png" alt="">
+  <img src="/img/prefs10.png" alt="">
 </p>
-
 
 Thiết lập phím tắt bàn phím trong WPrefs.app
 
