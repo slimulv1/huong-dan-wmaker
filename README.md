@@ -28,11 +28,14 @@ Thông tin trong bài hướng dẫn này dựa trên phiên bản Window Maker 
 <a name="preferences"></a>
 Preferences
 ----------------------
-![image](https://github.com/slimulv1/huong-dan-wmaker/blob/main/img/wprefs.jpg)
+<p align="left">
+  <img src="/img/wprefs.jpg" alt="Preferences">
+</p>
+
 ## WPrefs.app
 WPrefs.app chính là trái tim của quá trình cấu hình trong Window Maker. Sau khi cài đặt và khởi chạy Window Maker lần đầu tiên, ứng dụng WPrefs thường có sẵn dưới dạng một biểu tượng trên thanh Dock theo mặc định:
 <p align="left">
-  <img src="/img/dock_tile.png" alt="dock title">
+  <img src="/img/dock_tile.png" alt="WPrefs.app">
 </p>
 
 Tuy nhiên, tùy thuộc vào bản phân phối Linux bạn đang dùng, vị trí, mục menu hoặc biểu tượng có thể sẽ khác nhau. Thông thường, các bản phân phối Linux đặt WPrefs ở vị trí biểu tượng thứ hai hoặc thứ ba trong - cột Dock theo mặc định, nằm ngay phía trên hoặc phía dưới biểu tượng terminal.<br>
@@ -52,6 +55,13 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
   WPrefs.app sau khi khởi chạy
   
 ## 🎨 Các thiết lập tùy chỉnh hiện có
+- [🌸 Window Maker: The Phantasmagoria of Desktop Customization 🌸](#-window-maker-the-phantasmagoria-of-desktop-customization-)
+- [【 Hướng dẫn cách dùng Window Maker  】](#-hướng-dẫn-cách-dùng-window-maker--)
+  - [⛩️ Lời tựa](#️-lời-tựa)
+  - [📜 Mục lục](#-mục-lục)
+  - [Preferences](#preferences)
+  - [WPrefs.app](#wprefsapp)
+  - [🎨 Các thiết lập tùy chỉnh hiện có](#-các-thiết-lập-tùy-chỉnh-hiện-có)
   - [Window focus](#window-focus)
   - [Window handling](#window-handling)
   - [Menu](#menu)
@@ -68,7 +78,19 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
   - [Font configuration](#font-configuration)
   - [Expert user](#expert-user)
   - [Editing the configuration file](#editing-the-configuration-file)
- 
+  - [Windows](#windows)
+  - [Description](#description)
+  - [Focusing](#focusing)
+  - [Reordering](#reordering)
+  - [Moving](#moving)
+  - [Maximizing](#maximizing)
+  - [Miniaturizing](#miniaturizing)
+  - [Resizing](#resizing)
+  - [Shading](#shading)
+  - [Hiding](#hiding)
+  - [Closing](#closing)
+  - [Commands menu](#commands-menu)
+
 💠 **Giải thích thêm cho một số thuật ngữ:**
 - Window focus: Trong tin học, đây là trạng thái một cửa sổ đang "được chọn" để nhận lệnh từ bàn phím/chuột.
 - Ergonomy: Các thiết lập giúp tối ưu hóa sự tiện lợi và sức khỏe người dùng (như tốc độ di chuột, độ trễ phím).
