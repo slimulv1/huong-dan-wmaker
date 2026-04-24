@@ -35,7 +35,7 @@ WPrefs.app chính là trái tim của quá trình cấu hình trong Window Maker
   <img src="/img/dock_tile.png" alt="dock title">
 </p>
 
-Tuy nhiên, tùy thuộc vào bản phân phối Linux bạn đang dùng, vị trí, mục trình đơn (menu) hoặc biểu tượng có thể sẽ khác nhau. Thông thường, các bản phân phối Linux đặt WPrefs ở vị trí biểu tượng thứ hai hoặc thứ ba trong - cột Dock theo mặc định, nằm ngay phía trên hoặc phía dưới biểu tượng terminal.<br>
+Tuy nhiên, tùy thuộc vào bản phân phối Linux bạn đang dùng, vị trí, mục menu hoặc biểu tượng có thể sẽ khác nhau. Thông thường, các bản phân phối Linux đặt WPrefs ở vị trí biểu tượng thứ hai hoặc thứ ba trong - cột Dock theo mặc định, nằm ngay phía trên hoặc phía dưới biểu tượng terminal.<br>
 Nhấp đúp chuột vào biểu tượng này để mở cửa sổ WPrefs.app. Dọc theo phía trên cùng của cửa sổ là một dãy các biểu tượng, mỗi biểu tượng tương ứng với một nhóm các tùy chọn thiết lập. Ở góc dưới bên trái của cửa sổ  
 WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ giúp dạng bong bóng). Phần lớn nội dung dưới đây được trích dẫn trực tiếp từ các hộp thoại trợ giúp này. <br> 
 
@@ -54,7 +54,7 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
 ## 🎨 Các thiết lập tùy chỉnh hiện có
 - [Tiêu điểm cửa sổ (Window focus)](#window-focus)
 - [Xử lý cửa sổ (Window handling)](#window-handling)
-- [Trình đơn (Menu)](#menu)
+- [menu](#menu)
 - [Biểu tượng (Icon)](#icon)
 - [Ergonomy](#ergonomy)
 - [Đường dẫn tìm kiếm (Search Path)](#search-path)
@@ -143,17 +143,17 @@ Menu
   <img src="/img/prefs3.png" alt="">
 </p>
 
-Tùy chỉnh trình đơn (menu) trong WPrefs.app  
+Tùy chỉnh menu trong WPrefs.app  
 
-Bảng điều khiển này cho phép bạn thiết lập tốc độ cuộn trình đơn và cách căn lề của trình đơn con (submenu) so với trình đơn cha. Ngoài ra, có ba ô đánh dấu (checkbox) được cung cấp với các chức năng sau:
-- Ô trên cùng: Bắt buộc các trình đơn con luôn mở bên trong phạm vi màn hình thay vì phải cuộn khi chúng bị tràn ra ngoài cạnh màn hình.
-- Ô ở giữa: Cho phép các trình đơn con được mở tràn ra ngoài màn hình, nhưng sẽ khiến các trình đơn này tự động cuộn lại khi con trỏ chuột di chuyển lên trên chúng. Thiết lập này cũng rất có giá trị nếu bạn sử dụng tính năng "tear off" (tách rời trình đơn và đặt cố định trên màn hình). Trong trường hợp đó, bạn có thể muốn "park" trình đơn ở sát mép màn hình (ví dụ chỉ để lộ thanh tiêu đề) và để nó hiện ra đầy đủ khi bạn di chuột qua. Điều này rất tiện lợi trong một số quy trình làm việc, chẳng hạn như khi bạn mở nhiều ứng dụng và sử dụng trình đơn danh sách cửa sổ để chuyển đổi qua lại giữa chúng.
-- Ô dưới cùng: Cho phép bạn gán các tổ hợp phím tắt kiểu Vim (Vim-like keybindings) để lựa chọn các mục trong trình đơn.
+Bảng điều khiển này cho phép bạn thiết lập tốc độ cuộn menu và cách căn lề của menu con (submenu) so với menu cha. Ngoài ra, có ba ô đánh dấu (checkbox) được cung cấp với các chức năng sau:
+- Ô trên cùng: Bắt buộc các menu con luôn mở bên trong phạm vi màn hình thay vì phải cuộn khi chúng bị tràn ra ngoài cạnh màn hình.
+- Ô ở giữa: Cho phép các menu con được mở tràn ra ngoài màn hình, nhưng sẽ khiến các menu này tự động cuộn lại khi con trỏ chuột di chuyển lên trên chúng. Thiết lập này cũng rất có giá trị nếu bạn sử dụng tính năng "tear off" (tách rời menu và đặt cố định trên màn hình). Trong trường hợp đó, bạn có thể muốn "đậu" menu ở sát mép màn hình (ví dụ chỉ để lộ thanh tiêu đề) và để nó hiện ra đầy đủ khi bạn di chuột qua. Điều này rất tiện lợi trong một số quy trình làm việc, chẳng hạn như khi bạn mở nhiều ứng dụng và sử dụng menu danh sách cửa sổ để chuyển đổi qua lại giữa chúng.
+- Ô dưới cùng: Cho phép bạn gán các tổ hợp phím tắt kiểu Vim (Vim-like keybindings) để lựa chọn các mục trong menu.
 
 💠 Ghi chú thuật ngữ:
-- Tear off: Tính năng cho phép bạn tách một trình đơn ra khỏi vị trí gốc và biến nó thành một cửa sổ nhỏ nằm cố định trên màn hình để tiện sử dụng.
+- Tear off: Tính năng cho phép bạn tách một menu ra khỏi vị trí gốc và biến nó thành một cửa sổ nhỏ nằm cố định trên màn hình để tiện sử dụng.
 - Vim-like keybindings: Cách điều khiển bằng các phím chữ cái (như h, j, k, l) thay vì phím mũi tên, phổ biến trong trình soạn thảo văn bản Vim.
-- Parent menu / Submenu: Trình đơn cha và trình đơn con (cấp thấp hơn).
+- Parent menu / Submenu: menu cha và menu con (cấp thấp hơn).
 
 <a name="#icon"></a>
 Icon
@@ -245,7 +245,7 @@ Bảng điều khiển này định nghĩa các tính năng điều hướng bê
    - Việc chọn ô đánh dấu thứ hai cho phép các cửa sổ được kéo (dragged) từ không gian làm việc này sang không gian làm việc khác.
    - Việc chọn ô đánh dấu thứ ba sẽ khiến một không gian làm việc mới được tạo ra khi các cửa sổ được kéo (dragged) ra khỏi không gian làm việc cuối cùng đang tồn tại. <br>
 
-Một trình đơn lựa chọn cho phép bạn định nghĩa nơi tên không gian làm việc được hiển thị mỗi khi bạn di chuyển từ một không gian làm việc này sang một không gian làm việc khác (hoặc chọn không hiển thị tên không gian làm việc).
+Một menu lựa chọn cho phép bạn định nghĩa nơi tên không gian làm việc được hiển thị mỗi khi bạn di chuyển từ một không gian làm việc này sang một không gian làm việc khác (hoặc chọn không hiển thị tên không gian làm việc).
 
 <a name="#other"></a>
 Other
@@ -264,16 +264,16 @@ Bảng điều khiển này thiết lập tốc độ trượt biểu tượng, 
 - Làm mịn hình ảnh (Smooth scaling): Nếu được chọn, tính năng này sẽ trung hòa hiệu ứng vỡ ảnh (pixelization) trên các ảnh nền. Tác dụng phụ là làm chậm quá trình tải ảnh nền.
 - Phối màu cho màn hình 8bpp (Dithering colormap for 8bpp): Dành cho các màn hình 8-bit (liệu còn ai sử dụng loại này không?), tùy chọn này kích hoạt khả năng phối màu (dithering) và thay đổi số lượng màu sắc dự phòng cho các ứng dụng hoặc cho Window Maker. Thiết lập "Default" hầu như luôn mang lại kết quả tốt nhất.
 
-<a name="applications-menu"></a>
+<a name="#applications-menu"></a>
 Trình quản lý ứng dụng (Applications menu)
 ----------------------
 <p align="left">
   <img src="/img/prefs9.png" alt="">
 </p>
 
-Cấu hình trình đơn ứng dụng trong WPrefs.app  
+Cấu hình menu ứng dụng trong WPrefs.app  
 
-Trong bảng điều khiển này, trình đơn ứng dụng và các lệnh để khởi chạy từng ứng dụng có thể được định nghĩa. Bảng điều khiển này đã được thay đổi kể từ phiên bản 0.63 trở đi. Hiện tại, nó hiển thị trình đơn thực tế, từ đó cho phép chỉnh sửa trực tiếp (direct editing). Việc này chỉ có thể thực hiện được nếu trình đơn ở định dạng "property list". Các trình đơn ở định dạng văn bản thuần túy (plain text format) không thể chỉnh sửa được trong WPrefs. Hãy kiểm tra tệp "README" trong thư mục Window Maker để biết cách sử dụng định dạng này hay định dạng kia.
+Trong bảng điều khiển này, menu ứng dụng và các lệnh để khởi chạy từng ứng dụng có thể được định nghĩa. Bảng điều khiển này đã được thay đổi kể từ phiên bản 0.63 trở đi. Hiện tại, nó hiển thị menu thực tế, từ đó cho phép chỉnh sửa trực tiếp (direct editing). Việc này chỉ có thể thực hiện được nếu menu ở định dạng "property list". Các menu ở định dạng văn bản thuần túy (plain text format) không thể chỉnh sửa được trong WPrefs. Hãy kiểm tra tệp "README" trong thư mục Window Maker để biết cách sử dụng định dạng này hay định dạng kia.
 
 > Gợi ý nhỏ cho bạn: Nếu bạn đang mở WPrefs mà thấy phần này bị xám (không chỉnh sửa được), có khả năng file menu của bạn vẫn đang ở dạng script cũ. Bạn có thể dùng lệnh ```bash wmmenugen ``` để tạo lại menu mới tương thích với giao diện đồ họa này đấy!
 
@@ -302,7 +302,7 @@ Cấu hình chuột trong WPrefs.app
 
 Bảng điều khiển này thiết lập tốc độ chuột và độ trễ nhấp đúp. Các liên kết nút chuột có thể được định nghĩa và có thể được vô hiệu hóa hoặc kích hoạt.
 
-Thiết lập mặc định liên kết nút chuột phải với trình đơn ứng dụng, nút giữa với trình đơn danh sách cửa sổ và nút trái với việc chọn cửa sổ (tiêu điểm (focus)). Tất nhiên, với loại chuột hai nút, liên kết nút giữa sẽ không hoạt động. Tuy nhiên, trên một số hệ điều hành, việc nhấn cả hai nút cùng lúc sẽ cho kết quả tương tự như khi sử dụng nút giữa.
+Thiết lập mặc định liên kết nút chuột phải với menu ứng dụng, nút giữa với menu danh sách cửa sổ và nút trái với việc chọn cửa sổ (tiêu điểm (focus)). Tất nhiên, với loại chuột hai nút, liên kết nút giữa sẽ không hoạt động. Tuy nhiên, trên một số hệ điều hành, việc nhấn cả hai nút cùng lúc sẽ cho kết quả tương tự như khi sử dụng nút giữa.
 
 Bắt đầu từ phiên bản 0.65 trở đi, con lăn chuột có thể được sử dụng để chuyển đổi (switch) không gian làm việc. Đây không phải là hành vi mặc định và phải được kích hoạt tại đây.
 
@@ -318,7 +318,7 @@ Giao diện (Appearance)
 
 Thiết lập giao diện trong WPrefs.app
 
-Trong bảng điều khiển này, mọi thứ liên quan đến giao diện của GUI (ngoại trừ màu nền hoặc hình nền) đều có thể được cấu hình. Cửa sổ, trình đơn và biểu tượng có thể có "texture" (kết cấu) nền riêng, nghĩa là các kiểu độ dốc màu (color gradients) khác nhau có thể được cấu hình tại đây. "Texture", màu sắc, kiểu trình đơn và căn lề tiêu đề có thể được tùy chỉnh hoàn toàn.
+Trong bảng điều khiển này, mọi thứ liên quan đến giao diện của GUI (ngoại trừ màu nền hoặc hình nền) đều có thể được cấu hình. Cửa sổ, menu và biểu tượng có thể có "texture" (kết cấu) nền riêng, nghĩa là các kiểu độ dốc màu (color gradients) khác nhau có thể được cấu hình tại đây. "Texture", màu sắc, kiểu menu và căn lề tiêu đề có thể được tùy chỉnh hoàn toàn.
 
 <a name="#font-configuration"></a>
 Cấu hình phông chữ (Font configuration
@@ -329,7 +329,7 @@ Cấu hình phông chữ (Font configuration
 
 Các tùy chọn cấu hình phông chữ trong Wprefs.app
 
-Bảng điều khiển này cho phép bạn cấu hình phông chữ cho thanh tiêu đề của cửa sổ và trình đơn, cho phần văn bản nội dung của trình đơn, và cho văn bản của biểu tượng cũng như "clip". Ngoài ra, một phông chữ có thể được định nghĩa cho các thông điệp trên màn hình nền.
+Bảng điều khiển này cho phép bạn cấu hình phông chữ cho thanh tiêu đề của cửa sổ và menu, cho phần văn bản nội dung của menu, và cho văn bản của biểu tượng cũng như "clip". Ngoài ra, một phông chữ có thể được định nghĩa cho các thông điệp trên màn hình nền.
 
 <a name="#expert-user"></a>
 Người dùng chuyên gia (Expert user)
