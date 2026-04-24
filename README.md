@@ -714,3 +714,26 @@ Bạn có thể thiết lập để Dock luôn nằm trên các cửa sổ đã 
 
 💠 **Lưu ý:** Biểu tượng WMDock chính là "mỏ neo" của toàn bộ hệ thống Dock. Nếu bạn lỡ tay kéo nó đi quá xa, đừng lo lắng, chỉ cần tìm biểu tượng có hình logo GNUstep và kéo nó trở lại vị trí cũ là được!
 
+<a name="#starting-an-application"></a>
+Starting an application
+----------------------
+Việc nhấp đúp vào biểu tượng của một ứng dụng đã được gắn trên Dock sẽ khởi chạy ứng dụng đó.
+
+**Nhận biết trạng thái qua biểu tượng**
+Trạng thái của ứng dụng được thể hiện qua các dấu hiệu trực quan trên biểu tượng (icon):
+- <p align="left"> <img src="/img/unlaunched_app.png" alt="Root window menu"> </p> Ứng dụng chưa chạy: Một dấu ba chấm (...) sẽ xuất hiện ở góc dưới bên trái của biểu tượng và hình ảnh hiển thị đầy đủ màu sắc.
+- <p align="left"> <img src="/img/launched_app.png" alt="Root window menu"> </p> Ứng dụng đang chạy: Dấu ba chấm sẽ biến mất và biểu tượng sẽ được làm nổi bật (highlighted).
+- <p align="left"> <img src="/img/grayed_out_icon.png" alt="Root window menu"> </p> Biểu tượng bị mờ (Greyed out): Đôi khi, khi ứng dụng đang chạy, biểu tượng sẽ mờ đi thay vì nổi bật. Đây là tín hiệu cho biết ứng dụng đã mở và không thể khởi chạy thêm một bản sao (instance) nào nữa.
+
+**Tùy chỉnh chạy nhiều bản sao**
+Nếu một biểu tượng vẫn giữ nguyên dấu ba chấm và đầy đủ màu sắc ngay cả khi ứng dụng đã chạy, điều đó có nghĩa là cài đặt đã được thay đổi để cho phép chạy nhiều bản sao từ cùng một biểu tượng. Để thiết lập điều này, bạn mở ứng dụng, vào phần "Application specific" trong trình đơn lệnh (commands menu) và chọn "Shared application icons".
+
+Ngoài việc nhấp đúp, bạn cũng có thể sử dụng lệnh "Launch" trong trình đơn biểu tượng ứng dụng để khởi động chương trình.
+
+**Tính năng "Chiếm" biểu tượng (Icon Stealing)**
+Kể từ phiên bản 0.80.0, Dock có tính năng "chiếm" (steal) các biểu tượng ứng dụng (appicons). Tính năng này khác với tính năng tự động thu hút biểu tượng (Autoattract Icons):
+- hi bạn khởi chạy một ứng dụng từ bất kỳ đâu (như từ menu hoặc cửa sổ lệnh terminal) mà không phải từ Clip hay Dock, nếu biểu tượng của ứng dụng đó đã tồn tại sẵn trong Clip hoặc Dock, thì biểu tượng mới sẽ không xuất hiện ở dưới đáy màn hình nữa.
+- Thay vào đó, biểu tượng đã có sẵn trong Clip hoặc Dock sẽ "chiếm" lấy tiến trình đó và hiển thị trạng thái đang chạy ngay tại vị trí của nó.
+
+💠 **Có thể bạn chưa biết:** Tính năng "Icon Stealing" giúp màn hình của bạn cực kỳ sạch sẽ. Thay vì có hai biểu tượng giống hệt nhau (một cái cố định trên Dock và một cái tạm thời ở đáy màn hình), Window Maker sẽ gom chúng lại làm một để bạn dễ dàng quản lý!
+
