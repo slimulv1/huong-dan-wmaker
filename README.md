@@ -64,10 +64,10 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
 - [Applications menu)](#applications-menu)
 - [Keyboard shortcut](#keyboard-shortcut)
 - [Mouse](#mouse)
-- [Appearance](#appearance)
+- [Appearance (Giao diện)](#appearance)
 - [Font configuration](#font-configuration)
-- [Người dùng chuyên gia (Expert user)](#expert-user)
-- [Chỉnh sửa tệp cấu hình (Editing the configuration file)](#editing-the-configuration-file)
+- [Expert user)](#expert-user)
+- [Editing the configuration file](#editing-the-configuration-file)
 
 💠 Giải thích thêm cho một số thuật ngữ:
 - Window focus: Trong tin học, đây là trạng thái một cửa sổ đang "được chọn" để nhận lệnh từ bàn phím/chuột.
