@@ -255,7 +255,7 @@ Bảng điều khiển này thiết lập tốc độ trượt biểu tượng, 
 - Phối màu cho màn hình 8bpp (Dithering colormap for 8bpp): Dành cho các màn hình 8-bit (liệu còn ai sử dụng loại này không?), tùy chọn này kích hoạt khả năng phối màu (dithering) và thay đổi số lượng màu sắc dự phòng cho các ứng dụng hoặc cho Window Maker. Thiết lập "Default" hầu như luôn mang lại kết quả tốt nhất.
 
 <a name="applications-menu"></a>
-[Trình quản lý ứng dụng (Applications menu)
+Trình quản lý ứng dụng (Applications menu)
 ----------------------
 <p align="left">
   <img src="/img/prefs9.png" alt="">
@@ -264,3 +264,15 @@ Bảng điều khiển này thiết lập tốc độ trượt biểu tượng, 
 Cấu hình trình đơn ứng dụng trong WPrefs.app  
 Trong bảng điều khiển này, trình đơn ứng dụng và các lệnh để khởi chạy từng ứng dụng có thể được định nghĩa. Bảng điều khiển này đã được thay đổi kể từ phiên bản 0.63 trở đi. Hiện tại, nó hiển thị trình đơn thực tế, từ đó cho phép chỉnh sửa trực tiếp (direct editing). Việc này chỉ có thể thực hiện được nếu trình đơn ở định dạng "property list". Các trình đơn ở định dạng văn bản thuần túy (plain text format) không thể chỉnh sửa được trong WPrefs. Hãy kiểm tra tệp "README" trong thư mục Window Maker để biết cách sử dụng định dạng này hay định dạng kia.  
 > Gợi ý nhỏ cho bạn: Nếu bạn đang mở WPrefs mà thấy phần này bị xám (không chỉnh sửa được), có khả năng file menu của bạn vẫn đang ở dạng script cũ. Bạn có thể dùng lệnh ```bash wmmenugen ``` để tạo lại menu mới tương thích với giao diện đồ họa này đấy!
+
+<a name="#keyboard-shortcut"></a>
+Phím tắt bàn phím (Keyboard shortcut)
+----------------------
+<p align="left">
+  <img src="/img/prefs10.png" alt="">
+</p>
+
+
+Thiết lập phím tắt bàn phím trong WPrefs.app
+
+Nhiều hành động trong Window Maker đã được định nghĩa sẵn các phím tắt bàn phím. Các hành động này chủ yếu liên quan đến cửa sổ và không gian làm việc. Việc thay đổi, thêm hoặc xóa các phím tắt có thể được thực hiện trong bảng điều khiển này. Việc định nghĩa một phím tắt có thể được thực hiện một cách tương tác (interactively), thông qua việc ghi lại (capturing) tổ hợp phím.
