@@ -57,7 +57,7 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
 - [Biểu tượng (Icon)](#icon)
 - [Ergonomy](#ergonomy)
 - [Đường dẫn tìm kiếm (Search Path)](#search-path)
-- [Dock](#dock2)
+- [Thanh Dock](#dock2)
 - [Không gian làm việc (Workspace)](#workspace)
 - [Khác (Other)](#other)
 - [Trình quản lý ứng dụng (Applications menu)](#applications-menu)
