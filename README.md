@@ -737,3 +737,12 @@ Kể từ phiên bản 0.80.0, Dock có tính năng "chiếm" (steal) các biể
 
 💠 **Có thể bạn chưa biết:** Tính năng "Icon Stealing" giúp màn hình của bạn cực kỳ sạch sẽ. Thay vì có hai biểu tượng giống hệt nhau (một cái cố định trên Dock và một cái tạm thời ở đáy màn hình), Window Maker sẽ gom chúng lại làm một để bạn dễ dàng quản lý!
 
+<a name="#customizing"></a>
+Customizing
+----------------------
+Việc nhấp chuột trái và kéo một biểu tượng ứng dụng (appicon) vào Dock sẽ thêm ứng dụng đó vào danh sách các ứng dụng được gắn cố định. Tất nhiên, điều này đồng nghĩa với việc ứng dụng đó hiện đang phải chạy thì bạn mới có biểu tượng để kéo!
+- Lưu ý quan trọng: Các cửa sổ thu nhỏ (miniwindows - là cửa sổ của ứng dụng đã bị thu nhỏ xuống đáy màn hình) không thể được gắn vào Dock. Bạn có thể phân biệt chúng qua thanh tiêu đề nhỏ xuất hiện phía trên biểu tượng; các biểu tượng ứng dụng chuẩn (appicons) sẽ không có thanh tiêu đề này.
+- Gỡ bỏ: Để xóa một ứng dụng khỏi Dock, bạn chỉ cần nhấp chuột trái và kéo biểu tượng đó ra khỏi phạm vi của Dock rồi thả tay ra.
+
+💠 **Mẹo nhỏ:** Nếu bạn muốn đưa một ứng dụng vào Dock mà không muốn phải mở nó lên trước, bạn có thể kéo biểu tượng của nó từ một "Drawer" (ngăn kéo) khác hoặc cấu hình trực tiếp thông qua WPrefs.app. Hãy nhớ rằng Dock chỉ chấp nhận các biểu tượng ứng dụng thực thụ, không phải các cửa sổ đang chạy được thu nhỏ lại đâu nhé!
+
