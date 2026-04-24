@@ -83,6 +83,7 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
   - [Maximizing](#maximizing)
   - [Miniaturizing](#miniaturizing)
   - [Resizing](#resizing)
+  - [Shading](#shading)
 
 💠 Giải thích thêm cho một số thuật ngữ:
 - Window focus: Trong tin học, đây là trạng thái một cửa sổ đang "được chọn" để nhận lệnh từ bàn phím/chuột.
@@ -482,4 +483,14 @@ Các tổ hợp phím cung cấp thêm nhiều lựa chọn:
 - Nút chuột giữa + kéo thanh thay đổi kích thước: Thay đổi kích thước cửa sổ mà không đưa nó ra phía trước.
 - Phím Ctrl + kéo thanh thay đổi kích thước: Thay đổi kích thước cửa sổ mà không lấy tiêu điểm (focusing) cho nó.
 
-💠 Gợi ý: Nếu bạn thấy thanh resizebar này hơi khó bấm trúng (vì nó thường khá mỏng), bạn có thể dùng tổ hợp phím Alt + Chuột phải (phím Meta mặc định) ở bất kỳ đâu bên trong cửa sổ để thay đổi kích thước nhanh hơn nhiều đấy!
+💠 Gợi ý: Nếu bạn thấy thanh ``` resizebar ``` này hơi khó bấm trúng (vì nó thường khá mỏng), bạn có thể dùng tổ hợp phím Alt + Chuột phải (phím Meta mặc định) ở bất kỳ đâu bên trong cửa sổ để thay đổi kích thước nhanh hơn nhiều đấy!
+
+<a name="#Shading"></a>
+Shading
+----------------------
+
+Việc nhấp đúp vào thanh tiêu đề của một cửa sổ sẽ cuộn (shades) nó lại. Điều này có nghĩa là cửa sổ sẽ cuốn lên chỉ còn lại thanh tiêu đề. Một cửa sổ đã cuộn có hầu hết các thuộc tính giống như một cửa sổ bình thường: nó vẫn có thể được thu nhỏ hoặc đóng lại.
+
+Kể từ phiên bản 0.80.0, bạn có thể cuộn lên/hạ xuống (shade/unshade) một cửa sổ bằng cách sử dụng con lăn chuột trên thanh tiêu đề của nó. Tất nhiên, điều này giả định rằng hệ thống của bạn có khả năng quản lý con lăn chuột.
+
+Tệp ``` WMGLOBAL ``` trong thư mục ``` $HOME/GNUstep/Defaults ``` của bạn nên chứa hai chỉ thị mới: ``` MouseWheelUp ``` và ``` MouseWheelDown ```
