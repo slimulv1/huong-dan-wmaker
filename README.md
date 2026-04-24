@@ -372,17 +372,17 @@ Nếu cần thiết, tệp cấu hình mặc định nằm tại đường dẫn
 Windows
 ----------------------
 
-- [Mô tả (Description)](Description)
-- [Tiêu điểm (Focusing)](Focusing)
-- [Sắp xếp lại (Reordering)](Reordering)
-- [Di chuyển (Moving)](Moving)
-- [Phóng to (Maximizing)](Maximizing)
-- [Thu nhỏ (Miniaturizing)](Miniaturizing)
-- [Thay đổi kích thước (Resizing)](Resizing)
-- [Cuộn lên (Shading)](Shading)
-- [Ẩn (Hiding)](Hiding)
-- [Đóng (Closing)](Closing)
-- [Menu lệnh (Commands menu)](Commands-menu)
+- [Mô tả (Description)](#Description)
+- [Tiêu điểm (Focusing)](#Focusing)
+- [Sắp xếp lại (Reordering)](#Reordering)
+- [Di chuyển (Moving)](#Moving)
+- [Phóng to (Maximizing)](#Maximizing)
+- [Thu nhỏ (Miniaturizing)](#Miniaturizing)
+- [Thay đổi kích thước (Resizing)](#Resizing)
+- [Cuộn lên (Shading)](#Shading)
+- [Ẩn (Hiding)](#Hiding)
+- [Đóng (Closing)](#Closing)
+- [Menu lệnh (Commands menu)](#Commands-menu)
 
 <a name="#Description"></a>
 Description
