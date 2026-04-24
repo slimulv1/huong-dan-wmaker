@@ -381,7 +381,6 @@ Windows
 <a name="#Description"></a>
 Description
 ----------------------
-
 Bố cục chung của một cửa sổ:
 - Thanh tiêu đề (Titlebar): Cung cấp tên của ứng dụng, tài liệu hoặc cửa sổ. Màu sắc của nó (thường là) cho biết trạng thái tiêu điểm (focus) (cửa sổ đang hoạt động hoặc không hoạt động). Tôi nói là (thường là) vì một số kiểu dáng và chủ đề không cung cấp các màu sắc khác nhau cho cửa sổ được lấy tiêu điểm (focused) hoặc không được lấy tiêu điểm (unfocused) - mặc dù trường hợp này rất hiếm (và tôi xin nói thêm là, thật tàn nhẫn!).
 - Nút thu nhỏ (Miniaturize button): Nhấp vào nút bên trái của thanh tiêu đề sẽ tạo biểu tượng (iconifies) cho cửa sổ.
@@ -610,5 +609,23 @@ Nội dung của trình đơn hoàn toàn có thể cấu hình được, bằng
 
 **Lưu ý kỹ thuật:** Để sử dụng được WPrefs.app, các trình đơn phải ở định dạng "property list" (```plmenu```). Nếu bạn đang có một trình đơn dạng văn bản cũ, bạn có thể sử dụng một công cụ chuyển đổi có sẵn tên là ```wm-oldmenu2new``` để chuyển sang định dạng mới này.
 
-💠 Mẹo nhỏ: Nếu bạn thường xuyên cài đặt phần mềm mới, việc học cách biên tập tệp ```plmenu``` sẽ giúp bạn sắp xếp các ứng dụng vào từng mục (như Internet, Graphics, Editors) một cách khoa học và nhanh chóng hơn nhiều so với việc dùng giao diện đồ họa đấy!
+💠 **Mẹo nhỏ:** Nếu bạn thường xuyên cài đặt phần mềm mới, việc học cách biên tập tệp ```plmenu``` sẽ giúp bạn sắp xếp các ứng dụng vào từng mục (như Internet, Graphics, Editors) một cách khoa học và nhanh chóng hơn nhiều so với việc dùng giao diện đồ họa đấy!
+
+<a name="#window-list-menu"></a>
+Window list menu
+----------------------
+<p align="left">
+  <img src="/img/menu_window_list.png" alt="Root window menu">
+</p>
+
+**Trình đơn danh sách cửa sổ (Window list menu)**
+
+Việc nhấp chuột giữa vào một vùng trống trên không gian làm việc sẽ mở trình đơn danh sách cửa sổ. Với chuột hai nút, nhấp cả hai nút cùng lúc thường sẽ cho kết quả tương tự. F11 là phím tắt mặc định để mở trình đơn này.
+
+Trình đơn này liệt kê tất cả các cửa sổ — dù đang hoạt động hay không — trên mọi không gian làm việc.
+- Vị trí cửa sổ: Tên của không gian làm việc chứa cửa sổ đó được hiển thị ở bên phải tên cửa sổ.
+- Cửa sổ hiện tại: Cửa sổ đang được lấy tiêu điểm (focus) sẽ được đánh dấu bằng một ký hiệu hình kim cương (♦) ở bên trái tên cửa sổ.
+- Thao tác nhanh: Nhấp vào bất kỳ cửa sổ nào trong danh sách sẽ ngay lập tức lấy tiêu điểm cho cửa sổ đó, đưa nó lên phía trước và đưa bạn đến đúng không gian làm việc nơi cửa sổ đó đang tọa lạc.
+
+💠 **Mẹo nhỏ:** Đây là công cụ hữu ích nhất khi bạn bị "lạc" giữa hàng tá cửa sổ đang mở hoặc khi một ứng dụng bị ẩn mất mà bạn không nhớ nó đang ở màn hình ảo nào. Chỉ cần nhấn F11, bạn sẽ có cái nhìn toàn cảnh về mọi thứ đang chạy trên hệ thống của mình.
 
