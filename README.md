@@ -590,5 +590,25 @@ Menu List
 <a name="#root-window-menu"></a>
 Root window menu
 ----------------------
+<p align="left">
+  <img src="/img/menu_applications.png" alt="Root window menu">
+</p>
 
+Root window menu (applications menu)  
+
+**menu cửa sổ gốc (Root window menu)**
+
+menu cửa sổ gốc (còn gọi là menu ứng dụng) được mở bằng cách nhấp chuột phải vào một vùng trống trên không gian làm việc hoặc nhấn tổ hợp phím tắt đã được thiết lập sẵn (mặc định là F12).
+
+menu này dùng để:
+- Khởi chạy các ứng dụng.
+- Tùy chỉnh không gian làm việc (thay đổi hình nền, chủ đề/themes...).
+- Quản lý các đặc tính khác của không gian làm việc bằng các tiện ích X tiêu chuẩn (như ```xprop```, ```xfontsel```, ```xcmap```...).
+
+**Cấu hình menu**
+Nội dung của trình đơn hoàn toàn có thể cấu hình được, bằng cách sử dụng WPrefs.app hoặc chỉnh sửa trực tiếp tệp trình đơn dạng văn bản thuần túy (plain text). Hướng dẫn cách cấu hình cho từng phương thức có thể được tìm thấy trong thư mục WindowMaker của bản phân phối.
+
+**Lưu ý kỹ thuật:** Để sử dụng được WPrefs.app, các trình đơn phải ở định dạng "property list" (```plmenu```). Nếu bạn đang có một trình đơn dạng văn bản cũ, bạn có thể sử dụng một công cụ chuyển đổi có sẵn tên là ```wm-oldmenu2new``` để chuyển sang định dạng mới này.
+
+💠 Mẹo nhỏ: Nếu bạn thường xuyên cài đặt phần mềm mới, việc học cách biên tập tệp ```plmenu``` sẽ giúp bạn sắp xếp các ứng dụng vào từng mục (như Internet, Graphics, Editors) một cách khoa học và nhanh chóng hơn nhiều so với việc dùng giao diện đồ họa đấy!
 
