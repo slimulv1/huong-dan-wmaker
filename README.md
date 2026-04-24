@@ -156,3 +156,15 @@ Ergonomy
   <img src="/img/prefs5.png" alt="">
 </p>
 
+Thiết lập ergonomy trong WPrefs.app  
+Nhiều loại thông tin khác nhau được định nghĩa trong bảng điều khiển này.
+- Hiển thị kích thước (Size display)
+  - Window Maker cung cấp một hộp thông tin cho bạn biết về kích thước của một cửa sổ trong quá trình thay đổi kích thước (resizing). Bạn có thể chọn hiển thị này ở (a) chính giữa màn hình, (b) chính giữa màn hình, (c) chính giữa cửa sổ đang được thay đổi kích thước (resized), (d) ở cạnh và đáy cửa sổ dưới dạng hiển thị kích thước giống như bản vẽ kỹ thuật hoặc (e) không hiển thị.
+- Hiển thị vị trí (Position display)
+   - Thông tin tương tự như trên nhưng liên quan đến vị trí trên màn hình của một cửa sổ trong khi di chuyển (moving) (không có tùy chọn dạng bản vẽ kỹ thuật).
+- Biểu tượng ứng dụng nhấp nhô (Appicon bouncing)
+   - Bạn có thể thiết lập hành vi nhấp nhô của "AppIcons" tại đây.
+- Hiển thị văn bản bong bóng cho (Show balloon text for)
+  - Việc chọn các ô đánh dấu sẽ hiển thị văn bản bong bóng cho: tiêu đề cửa sổ không đầy đủ, tiêu đề cửa sổ thu nhỏ (miniwindow), các biểu tượng ứng dụng và "dock icon", hoặc trợ giúp nội bộ. Điều này có thể hữu ích cho người dùng mới nhưng nhiều người cảm thấy việc các bong bóng trợ giúp hiện ra khắp nơi trên màn hình nền sẽ nhanh chóng gây khó chịu. Tôi thường sử dụng các tùy chọn tiêu đề cửa sổ không đầy đủ và tiêu đề cửa sổ thu nhỏ (miniwindow) và không dùng các tùy chọn khác.
+- Đường viền không gian làm việc (Workspace border)
+  - Bạn có thể thiết lập một đường viền nhỏ cho không gian làm việc. Điều này cho phép bạn dễ dàng truy cập "clip" (chẳng hạn) khi các cửa sổ đang được phóng to (maximized).
