@@ -27,11 +27,11 @@ Tuy nhiên, tùy thuộc vào bản phân phối Linux bạn đang dùng, vị t
 - Nhấp đúp chuột vào biểu tượng này để mở cửa sổ WPrefs.app. Dọc theo phía trên cùng của cửa sổ là một dãy các biểu tượng, mỗi biểu tượng tương ứng với một nhóm các tùy chọn thiết lập. Ở góc dưới bên trái của cửa sổ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ giúp dạng bong bóng). Phần lớn nội dung dưới đây được trích dẫn trực tiếp từ các hộp thoại trợ giúp này.
 <br>
 <p align="left">
-  <img src="/img/prefs0.png">
+  <img src="/img/prefs0.png" alt="">
 </p>
-WPrefs.app sau khi khởi chạy
+  WPrefs.app sau khi khởi chạy
 
-### Các thiết lập tùy chỉnh hiện có
+## Các thiết lập tùy chỉnh hiện có
 - [Tiêu điểm cửa sổ (Window focus)](#window-focus)
 - [Xử lý cửa sổ (Window handling)](#window-handling)
 - [Trình đơn (Menu)](#menu)
@@ -48,3 +48,32 @@ WPrefs.app sau khi khởi chạy
 - [Cấu hình phông chữ (Font configuration)](#font-configuration)
 - [Người dùng chuyên gia (Expert user)](#expert-user)
 - [Chỉnh sửa tệp cấu hình (Editing the configuration file)](#editing-the-configuration-file)
+
+<a name="preferences"></a>
+Window focus
+----------------------
+<p align="left">
+  <img src="/img/prefs1.png" alt="">
+</p>
+
+Điều khiển tiêu điểm cửa sổ (Window Focus) trong WPrefs.app
+
+Biểu tượng đầu tiên từ phía bên trái dùng để điều khiển cách các cửa sổ nhận tiêu điểm (cách chúng được kích hoạt).
+- Chế độ tiêu điểm đầu vào (có hai lựa chọn):
+  - Thủ công (Manual): Nhấp chuột vào cửa sổ để thiết lập tiêu điểm nhập liệu từ bàn phím.
+  - Tự động (Auto): Tự động đặt tiêu điểm nhập liệu bàn phím cho cửa sổ nằm dưới con trỏ chuột.
+- Cài đặt bảng màu (Colormap) trong cửa sổ (Install colormap in the window)
+  - Lựa chọn cài đặt bảng màu cho: (a) cửa sổ đang có tiêu điểm đầu vào hoặc (b) cửa sổ đang nằm dưới con trỏ chuột.
+- Độ trễ tự động nâng cửa sổ (Automatic window raise delay):
+  - Thiết lập khoảng thời gian chờ (tính bằng mili giây - msec) để cửa sổ tự động nổi lên trên cùng.
+- Các ô đánh dấu (Checkboxes):
+  - Ô trên cùng: Ngăn ứng dụng nhận cú nhấp chuột dùng để lấy tiêu điểm (tôi không rõ tại sao bạn lại cần dùng tính năng này, nhưng rõ ràng là một số người thấy nó hữu ích).
+  - Ô ở giữa: Cho phép bạn chọn việc các cửa sổ ứng dụng mới mở sẽ tự động nhận tiêu điểm, hay phải nhấp chuột vào mới có thể lấy được tiêu điểm.
+  - Ô dưới cùng: Cho phép bạn đưa cửa sổ lên phía trên (nổi lên trên các cửa sổ khác) khi đang sử dụng bàn phím.
+
+<a name="#window-handling"></a>
+Window handling
+----------------------
+<p align="left">
+  <img src="/img/prefs2.png" alt="">
+</p>
