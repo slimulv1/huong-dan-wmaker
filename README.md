@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Spell_Card-High_Quality-blueviolet?style=for-the-badge" alt="Spell Card">
  
 ![Repo size](https://img.shields.io/github/repo-size/slimulv1/huong-dan-wmaker?style=badge&logo=protondrive&logoColor=fff&colorA=363a4f&colorB=blue)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/slimulv1/huong-dan-wmake/main?style=badge&label=Last%20Commit&logo=git&logoColor=fff&colorA=363a4f&colorB=purple)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/slimulv1/huong-dan-wmaker/main?style=badge&label=Last%20Commit&logo=git&logoColor=fff&colorA=363a4f&colorB=purple)
 <!-- style=for-the-badge / style string
 Possible values: [flat, flat-square, plastic, badge, for-the-badge, social] -->
 </div>
