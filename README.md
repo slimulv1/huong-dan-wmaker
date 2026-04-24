@@ -209,3 +209,20 @@ Bảng điều khiển này định nghĩa các tính năng điều hướng bê
    - Việc chọn ô đánh dấu thứ ba sẽ khiến một không gian làm việc mới được tạo ra khi các cửa sổ được kéo (dragged) ra khỏi không gian làm việc cuối cùng đang tồn tại. <br>
 
 Một trình đơn lựa chọn cho phép bạn định nghĩa nơi tên không gian làm việc được hiển thị mỗi khi bạn di chuyển từ một không gian làm việc này sang một không gian làm việc khác (hoặc chọn không hiển thị tên không gian làm việc).
+
+<a name="#other"></a>
+Other
+----------------------
+<p align="left">
+  <img src="/img/prefs8.png" alt="">
+</p>
+
+Thiết lập cấu hình không gian làm việc khác trong WPrefs.app  
+Bảng điều khiển này thiết lập tốc độ trượt biểu tượng, tốc độ hoạt ảnh cuộn lên (shade), làm mịn hình ảnh và kiểu điều khiển (nút bấm) trên thanh tiêu đề. Các hoạt ảnh và âm thanh cũng được định nghĩa tại đây.
+- Tốc độ trượt biểu tượng (Icon slide speed): Chọn biểu tượng bên trái sẽ cho kết quả chậm nhất, chọn biểu tượng bên phải sẽ cho kết quả nhanh nhất.
+- Tốc độ hoạt ảnh cuộn lên (Shade animation speed): Tương tự như tốc độ trượt biểu tượng.
+- Kiểu thanh tiêu đề (Titlebar style): Để chọn thanh tiêu đề mang phong cách "NeXTish" nhiều hay ít. (Phiên bản trên cùng là "mới hơn", trong khi phía dưới bên trái là khoảng năm 1990 và phía dưới bên phải là khoảng năm 1988.)
+- Hoạt ảnh (Animations): Việc chọn biểu tượng hoạt ảnh sẽ kích hoạt các hoạt ảnh cho việc thu nhỏ (miniaturization) cửa sổ, cuộn lên (shading) và các hiệu ứng khác. Việc chọn biểu tượng "superfluous" sẽ kích hoạt hiệu ứng "đổ bóng" (ghosting) cho "dock" (khi di chuyển - đặc biệt là khi di chuyển từ cạnh này sang cạnh kia của màn hình) và hoạt ảnh nổ tung cho các biểu tượng mà bạn xóa khỏi "dock".
+- Làm mịn hình ảnh (Smooth scaling): Nếu được chọn, tính năng này sẽ trung hòa hiệu ứng vỡ ảnh (pixelization) trên các ảnh nền. Tác dụng phụ là làm chậm quá trình tải ảnh nền.
+- Phối màu cho màn hình 8bpp (Dithering colormap for 8bpp): Dành cho các màn hình 8-bit (liệu còn ai sử dụng loại này không?), tùy chọn này kích hoạt khả năng phối màu (dithering) và thay đổi số lượng màu sắc dự phòng cho các ứng dụng hoặc cho Window Maker. Thiết lập "Default" hầu như luôn mang lại kết quả tốt nhất.
+
