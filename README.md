@@ -359,27 +359,19 @@ Editing the configuration file
 Nếu cần thiết, tệp cấu hình mặc định nằm tại đường dẫn ``` $(HOME)/GNUstep/Defaults/WindowMaker ``` có thể được chỉnh sửa bằng tay. Tệp này là một cơ sở dữ liệu với cú pháp "property list". Khi bạn chọn một tùy chọn trong WPrefs.app, lựa chọn đó sẽ được ghi lại vào tệp này. Khi thay đổi tệp mặc định này, việc tuân thủ đúng cú pháp là vô cùng quan trọng.
 > Lưu ý nhỏ: Vì đây là tệp dạng "property list" (plist), chỉ cần thiếu một dấu ngoặc hay dấu chấm phẩy cũng có thể khiến Window Maker không khởi động được giao diện người dùng. Bạn nên sao lưu tệp này trước khi chỉnh sửa thủ công nhé!
 
+<a name="#windows"></a>
 Windows
+----------------------
 
-    Description
-
-    Focusing
-
-    Reordering
-
-    Moving
-
-    Maximizing
-
-    Miniaturizing
-
-    Resizing
-
-    Shading
-
-    Hiding
-
-    Closing
-
-    Commands menu
+- [Mô tả (Description)](Description)
+- [Tiêu điểm (Focusing)](Focusing)
+- [Sắp xếp lại (Reordering)](Reordering)
+- [Di chuyển (Moving)](Moving)
+- [Phóng to (Maximizing)](Maximizing)
+- [Thu nhỏ (Miniaturizing)](Miniaturizing)
+- [Thay đổi kích thước (Resizing)](Resizing)
+- [Cuộn lên (Shading)](Shading)
+- [Ẩn (Hiding)](Hiding)
+- [Đóng (Closing)](Closing)
+- [Menu lệnh (Commands menu)](Commands-menu)
 
