@@ -353,7 +353,7 @@ Việc sử dụng bảng điều khiển này ngụ ý rằng bạn đã có nh
 - Hút dính (snapping) vào cạnh màn hình
 
 <a name="#editing-the-configuration-filer"></a>
-Chỉnh sửa tệp cấu hình (Editing the configuration file)
+Editing the configuration file
 ----------------------
 
 Nếu cần thiết, tệp cấu hình mặc định nằm tại đường dẫn ``` $(HOME)/GNUstep/Defaults/WindowMaker ``` có thể được chỉnh sửa bằng tay. Tệp này là một cơ sở dữ liệu với cú pháp "property list". Khi bạn chọn một tùy chọn trong WPrefs.app, lựa chọn đó sẽ được ghi lại vào tệp này. Khi thay đổi tệp mặc định này, việc tuân thủ đúng cú pháp là vô cùng quan trọng.
