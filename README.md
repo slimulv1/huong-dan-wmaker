@@ -77,6 +77,8 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
   - [Editing the configuration file](#editing-the-configuration-file)
   - [Windows](#windows)
   - [Description](#description)
+  - [Focusing](#focusing)
+  - [Reordering](#reordering)
 
 💠 Giải thích thêm cho một số thuật ngữ:
 - Window focus: Trong tin học, đây là trạng thái một cửa sổ đang "được chọn" để nhận lệnh từ bàn phím/chuột.
@@ -394,3 +396,33 @@ Bố cục chung của một cửa sổ:
 - Nút đóng (Close button): Nhấp vào nút bên phải của thanh tiêu đề sẽ đóng cửa sổ hoặc buộc dừng ứng dụng.
 - Thanh thay đổi kích thước (Resizebar): Phần dưới cùng của cửa sổ. Kéo (dragging) thanh thay đổi kích thước bằng chuột sẽ thay đổi kích thước (resizes) cửa sổ.
 - Vùng ứng dụng (Client area): Nội dung của cửa sổ. Nó có thể là một ứng dụng, một đoạn văn bản, một bức tranh...
+
+<a name="#Focusing"></a>
+Focusing
+----------------------
+
+Một cửa sổ có thể ở hai trạng thái: được lấy tiêu điểm (focused) hoặc không được lấy tiêu điểm (unfocused). Cửa sổ được lấy tiêu điểm (focused) là cửa sổ đang hoạt động, là cửa sổ nhận các thao tác phím. Thanh tiêu đề của nó có một màu sắc khác biệt (thường là vậy!). Các cửa sổ hộp thoại hoặc bảng điều khiển được mở từ một cửa sổ chính sẽ tự động nhận tiêu điểm. Ngay sau khi chúng được đóng lại, cửa sổ chính sẽ nhận lại tiêu điểm.   
+
+Một cửa sổ có thể ở hai trạng thái: được lấy tiêu điểm (focused) hoặc không được lấy tiêu điểm (unfocused). Cửa sổ được lấy tiêu điểm (focused) là cửa sổ đang hoạt động, là cửa sổ nhận các thao tác phím. Thanh tiêu đề của nó có một màu sắc khác biệt (thường là vậy!). Các cửa sổ hộp thoại hoặc bảng điều khiển được mở từ một cửa sổ chính sẽ tự động nhận tiêu điểm. Ngay sau khi chúng được đóng lại, cửa sổ chính sẽ nhận lại tiêu điểm.   
+
+Có hai chế độ sẵn có để lấy tiêu điểm (focus) cho một cửa sổ:
+- Chế độ "Click to focus": nhấp vào bất kỳ phần nào của cửa sổ để kích hoạt nó.
+- Chế độ "Focus follows mouse": di chuyển con trỏ chuột lên trên cửa sổ để kích hoạt nó.
+
+<a name="#Reordering"></a>
+Reordering
+----------------------
+
+Các cửa sổ có thể nằm đè lên nhau, trong trường hợp đó, một số cửa sổ sẽ che khuất toàn bộ hoặc một phần của các cửa sổ khác. Việc nhấp chuột trái vào thanh tiêu đề hoặc thanh thay đổi kích thước sẽ đưa cửa sổ đó ra "phía trước" (và cấp tiêu điểm (focus) cho cửa sổ đó). Chọn một cửa sổ từ trình đơn danh sách cửa sổ cũng mang lại kết quả tương tự.   
+
+Một số tổ hợp phím được cung cấp và rất hữu ích khi một cửa sổ bị ẩn đằng sau các cửa sổ khác:
+- Phím Meta + nhấp chuột trái vào thanh tiêu đề:
+Đưa cửa sổ ra phía sau và cấp tiêu điểm (focus) cho cửa sổ nằm trên cùng.
+- Phím Meta + nhấp chuột trái vào vùng ứng dụng (client area):
+Đưa cửa sổ ra phía trước và lấy tiêu điểm (focus) cho nó.
+- Phím Meta + Phím Mũi tên Lên:
+Đưa cửa sổ hiện đang được lấy tiêu điểm (focused) ra phía trước.
+- Phím Meta + Phím Mũi tên Xuống:
+Đưa cửa sổ hiện đang được lấy tiêu điểm (focused) ra phía sau.
+
+Nhiều thuộc tính cửa sổ có thể được thay đổi từ bảng thuộc tính trong trình đơn lệnh cửa sổ (bằng cách nhấp chuột phải vào thanh tiêu đề). Kể từ phiên bản 0.62.0, việc xoay vòng (cycling) cửa sổ đã được thay đổi sang kiểu của Windows (Alt-Tab).
