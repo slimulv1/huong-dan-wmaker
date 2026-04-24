@@ -60,7 +60,7 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
 - [Đường dẫn tìm kiếm (Search Path)](#search-path)
 - [Thanh Dock](#thanh-dock)
 - [Không gian làm việc (Workspace)](#workspace) 
-- [Apps)](#Apps)
+- [Applications menu)](#Apps)
 - [Keyboard shortcut](#keyboard-shortcut)
 - [Mouse](#mouse)
 - [Giao diện (Appearance)](#appearance)
@@ -265,7 +265,7 @@ Bảng điều khiển này thiết lập tốc độ trượt biểu tượng, 
 - Phối màu cho màn hình 8bpp (Dithering colormap for 8bpp): Dành cho các màn hình 8-bit (liệu còn ai sử dụng loại này không?), tùy chọn này kích hoạt khả năng phối màu (dithering) và thay đổi số lượng màu sắc dự phòng cho các ứng dụng hoặc cho Window Maker. Thiết lập "Default" hầu như luôn mang lại kết quả tốt nhất.
 
 <a name="#Apps"></a>
-Apps
+Applications menu
 ----------------------
 <p align="left">
   <img src="/img/prefs10.png" alt="">
