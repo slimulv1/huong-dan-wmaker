@@ -12,8 +12,7 @@ Possible values: [flat, flat-square, plastic, badge, for-the-badge, social] -->
 </div>
 
 ## ⛩️ Lời tựa
-Bài hướng dẫn này nhằm giúp người dùng Window Maker hiểu rõ hơn về những tính năng tuyệt vời của trình quản lý cửa sổ này. Cuốn Hướng dẫn Sử dụng Chính thức (Users Guide) rất đáng để đọc; bạn có thể truy cập tài liệu này từ trang web của Window Maker. Ngoài ra, các bài hướng dẫn và mẹo khác cũng có thể được tìm thấy tại nhiều trang web khác nhau trên Internet. Việc tìm kiếm từ khóa "Window Maker guide how-to" có thể cung cấp cho bạn thêm nhiều thông tin hữu ích.
-
+Bài hướng dẫn này nhằm giúp người dùng Window Maker hiểu rõ hơn về những tính năng tuyệt vời của trình quản lý cửa sổ này. Cuốn Hướng dẫn Sử dụng Chính thức (Users Guide) rất đáng để đọc; bạn có thể truy cập tài liệu này từ trang web của Window Maker. Ngoài ra, các bài hướng dẫn và mẹo khác cũng có thể được tìm thấy tại nhiều trang web khác nhau trên Internet. Việc tìm kiếm từ khóa "Window Maker guide how-to" có thể cung cấp cho bạn thêm nhiều thông tin hữu ích.  
 Thông tin trong bài hướng dẫn này dựa trên phiên bản Window Maker 0.95.3. Bạn hãy kiểm tra phiên bản mình đang dùng bằng cách mở WPrefs.app (công cụ Tùy chỉnh Window Maker). Số phiên bản được hiển thị ngay bên dưới tiêu đề "Window Maker Preferences" tại cửa sổ WPrefs chính. Bạn cũng có thể chạy lệnh wmaker --version trong cửa sổ terminal (không nhập dấu ngoặc kép). Lệnh này sẽ trả về số phiên bản Window Maker hiện đang được cài đặt trên máy.
 
 📜 Mục lục
@@ -35,14 +34,15 @@ WPrefs.app chính là trái tim của quá trình cấu hình trong Window Maker
 <p align="left">
   <img src="/img/dock_tile.png" alt="dock title">
 </p>
-Tuy nhiên, tùy thuộc vào bản phân phối Linux bạn đang dùng, vị trí, mục trình đơn (menu) hoặc biểu tượng có thể sẽ khác nhau. Thông thường, các bản phân phối Linux đặt WPrefs ở vị trí biểu tượng thứ hai hoặc thứ ba trong - cột Dock theo mặc định, nằm ngay phía trên hoặc phía dưới biểu tượng terminal.
-- Nhấp đúp chuột vào biểu tượng này để mở cửa sổ WPrefs.app. Dọc theo phía trên cùng của cửa sổ là một dãy các biểu tượng, mỗi biểu tượng tương ứng với một nhóm các tùy chọn thiết lập. Ở góc dưới bên trái của cửa sổ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ giúp dạng bong bóng). Phần lớn nội dung dưới đây được trích dẫn trực tiếp từ các hộp thoại trợ giúp này.
+Tuy nhiên, tùy thuộc vào bản phân phối Linux bạn đang dùng, vị trí, mục trình đơn (menu) hoặc biểu tượng có thể sẽ khác nhau. Thông thường, các bản phân phối Linux đặt WPrefs ở vị trí biểu tượng thứ hai hoặc thứ ba trong - cột Dock theo mặc định, nằm ngay phía trên hoặc phía dưới biểu tượng terminal.<br>
+Nhấp đúp chuột vào biểu tượng này để mở cửa sổ WPrefs.app. Dọc theo phía trên cùng của cửa sổ là một dãy các biểu tượng, mỗi biểu tượng tương ứng với một nhóm các tùy chọn thiết lập. Ở góc dưới bên trái của cửa sổ  
+WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ giúp dạng bong bóng). Phần lớn nội dung dưới đây được trích dẫn trực tiếp từ các hộp thoại trợ giúp này.
 <br>
 <p align="left">
   <img src="/img/prefs0.png" alt="">
 </p>
   WPrefs.app sau khi khởi chạy
-
+  
 ## 🎨 Các thiết lập tùy chỉnh hiện có
 - [Tiêu điểm cửa sổ (Window focus)](#window-focus)
 - [Xử lý cửa sổ (Window handling)](#window-handling)
@@ -68,8 +68,7 @@ Window focus
   <img src="/img/prefs1.png" alt="">
 </p>
 
-Điều khiển tiêu điểm cửa sổ (Window Focus) trong WPrefs.app
-
+Điều khiển tiêu điểm cửa sổ (Window Focus) trong WPrefs.app  
 Biểu tượng đầu tiên từ phía bên trái dùng để điều khiển cách các cửa sổ nhận tiêu điểm (cách chúng được kích hoạt).
 - Chế độ tiêu điểm đầu vào (có hai lựa chọn):
   - Thủ công (Manual): Nhấp chuột vào cửa sổ để thiết lập tiêu điểm nhập liệu từ bàn phím.
@@ -90,8 +89,7 @@ Window handling
   <img src="/img/prefs2.png" alt="">
 </p>
 
-Tùy chỉnh xử lý cửa sổ trong WPrefs.app
-
+Tùy chỉnh xử lý cửa sổ trong WPrefs.app  
 Nhấp vào biểu tượng thứ hai để lựa chọn các tùy chọn xử lý cửa sổ. Biểu tượng này mở ra một bảng điều khiển cho phép bạn định nghĩa vị trí mặc định và các thuộc tính của cửa sổ trong không gian làm việc.
 - Sắp xếp cửa sổ (Window placement)
   - Bạn có thể sử dụng các thanh trượt xung quanh hình mô phỏng màn hình để thay đổi vị trí ban đầu. Công cụ này cho phép Window Maker sắp xếp thứ tự cửa sổ trên màn hình theo các chế độ: Ngẫu nhiên (Random), Thủ công (Manual), Bậc thang (Cascade) hoặc Thông minh (Smart). Chế độ mặc định là Tự động (Automatic).
@@ -111,3 +109,23 @@ Nhấp vào biểu tượng thứ hai để lựa chọn các tùy chọn xử l
 - Di chuyển/Thay đổi kích thước hiển thị nội dung (Opaque move/resize)
   - Opaque move: Khi chọn mục này, cửa sổ sẽ hiển thị toàn bộ nội dung bên trong khi di chuyển. Nếu không chọn, chỉ có khung viền được hiển thị.
   - Opaque resize: Giúp nội dung cửa sổ hiển thị rõ trong quá trình thay đổi kích thước, nếu không chỉ có khung viền được hiển thị.
+
+<a name="#menu"></a>
+Menu
+----------------------
+<p align="left">
+  <img src="/img/prefs3.png" alt="">
+</p>
+
+Tùy chỉnh trình đơn (menu) trong WPrefs.app  
+Bảng điều khiển này cho phép bạn thiết lập tốc độ cuộn trình đơn và cách căn lề của trình đơn con (submenu) so với trình đơn cha. Ngoài ra, có ba ô đánh dấu (checkbox) được cung cấp với các chức năng sau:
+- Ô trên cùng: Bắt buộc các trình đơn con luôn mở bên trong phạm vi màn hình thay vì phải cuộn khi chúng bị tràn ra ngoài cạnh màn hình.
+- Ô ở giữa: Cho phép các trình đơn con được mở tràn ra ngoài màn hình, nhưng sẽ khiến các trình đơn này tự động cuộn lại khi con trỏ chuột di chuyển lên trên chúng. Thiết lập này cũng rất có giá trị nếu bạn sử dụng tính năng "tear off" (tách rời trình đơn và đặt cố định trên màn hình). Trong trường hợp đó, bạn có thể muốn "park" trình đơn ở sát mép màn hình (ví dụ chỉ để lộ thanh tiêu đề) và để nó hiện ra đầy đủ khi bạn di chuột qua. Điều này rất tiện lợi trong một số quy trình làm việc, chẳng hạn như khi bạn mở nhiều ứng dụng và sử dụng trình đơn danh sách cửa sổ để chuyển đổi qua lại giữa chúng.
+- Ô dưới cùng: Cho phép bạn gán các tổ hợp phím tắt kiểu Vim (Vim-like keybindings) để lựa chọn các mục trong trình đơn.
+
+<a name="#icon"></a>
+Icon
+----------------------
+<p align="left">
+  <img src="/img/prefs4.png" alt="">
+</p>
