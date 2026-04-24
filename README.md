@@ -39,7 +39,7 @@ Tuy nhiên, tùy thuộc vào bản phân phối Linux bạn đang dùng, vị t
 Nhấp đúp chuột vào biểu tượng này để mở cửa sổ WPrefs.app. Dọc theo phía trên cùng của cửa sổ là một dãy các biểu tượng, mỗi biểu tượng tương ứng với một nhóm các tùy chọn thiết lập. Ở góc dưới bên trái của cửa sổ  
 WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ giúp dạng bong bóng). Phần lớn nội dung dưới đây được trích dẫn trực tiếp từ các hộp thoại trợ giúp này. <br> 
 
-💠 Giải nghĩa một số thuật ngữ.
+💠 **Giải nghĩa một số thuật ngữ.**
 - Dock: Thanh neo đậu ứng dụng (thanh công cụ đặc trưng của Window Maker).
 - Distribution (distro): Bản phân phối (ví dụ: Ubuntu, Debian, Arch Linux...).
 - Balloon help: Chỉ dẫn xuất hiện trong một "bong bóng" nhỏ khi bạn di chuột qua một mục nào đó.
@@ -84,8 +84,9 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
   - [Miniaturizing](#miniaturizing)
   - [Resizing](#resizing)
   - [Shading](#shading)
+  - [Hiding](#hiding)
 
-💠 Giải thích thêm cho một số thuật ngữ:
+💠 **Giải thích thêm cho một số thuật ngữ:**
 - Window focus: Trong tin học, đây là trạng thái một cửa sổ đang "được chọn" để nhận lệnh từ bàn phím/chuột.
 - Ergonomy: Các thiết lập giúp tối ưu hóa sự tiện lợi và sức khỏe người dùng (như tốc độ di chuột, độ trễ phím).
 - Dock: Bạn nên giữ nguyên vì đây là thuật ngữ riêng của Window Maker (giống như thanh Taskbar trên Windows).
@@ -113,7 +114,7 @@ Biểu tượng đầu tiên từ phía bên trái dùng để điều khiển c
   - Ô ở giữa: Cho phép bạn chọn việc các cửa sổ ứng dụng mới mở sẽ tự động nhận tiêu điểm, hay phải nhấp chuột vào mới có thể lấy được tiêu điểm.
   - Ô dưới cùng: Cho phép bạn đưa cửa sổ lên phía trên (nổi lên trên các cửa sổ khác) khi đang sử dụng bàn phím.
 
-💠 Giải thích thêm một số thuật ngữ kỹ thuật:
+💠 **Giải thích thêm một số thuật ngữ kỹ thuật:**
 - Focus (Tiêu điểm): Trạng thái một cửa sổ đang hoạt động và sẵn sàng nhận lệnh.
 - Colormap: Một bảng màu kỹ thuật (thường liên quan đến các hệ thống hiển thị cũ như X11 để tránh xung đột màu sắc giữa các ứng dụng).
 - Window raise: Hành động đưa một cửa sổ đang bị che khuất lên vị trí trên cùng của màn hình.
@@ -147,7 +148,7 @@ Nhấp vào biểu tượng thứ hai để lựa chọn các tùy chọn xử l
   - Opaque move: Khi chọn mục này, cửa sổ sẽ hiển thị toàn bộ nội dung bên trong khi di chuyển. Nếu không chọn, chỉ có khung viền được hiển thị.
   - Opaque resize: Giúp nội dung cửa sổ hiển thị rõ trong quá trình thay đổi kích thước, nếu không chỉ có khung viền được hiển thị.
 
-💠 Ghi chú thuật ngữ:
+💠 **Ghi chú thuật ngữ:**
 - Geometry: Trong ngữ cảnh này là kích thước và tọa độ của cửa sổ.
 - Opaque (Đục/Không trong suốt): Trong kỹ thuật phần mềm, "Opaque move" ám chỉ việc di chuyển cả khối cửa sổ thay vì chỉ di chuyển cái khung dây (wireframe).
 - Super key: Thường là phím Windows trên bàn phím PC hoặc phím Command trên Mac.
@@ -166,7 +167,7 @@ Bảng điều khiển này cho phép bạn thiết lập tốc độ cuộn men
 - Ô ở giữa: Cho phép các menu con được mở tràn ra ngoài màn hình, nhưng sẽ khiến các menu này tự động cuộn lại khi con trỏ chuột di chuyển lên trên chúng. Thiết lập này cũng rất có giá trị nếu bạn sử dụng tính năng "tear off" (tách rời menu và đặt cố định trên màn hình). Trong trường hợp đó, bạn có thể muốn "đậu" menu ở sát mép màn hình (ví dụ chỉ để lộ thanh tiêu đề) và để nó hiện ra đầy đủ khi bạn di chuột qua. Điều này rất tiện lợi trong một số quy trình làm việc, chẳng hạn như khi bạn mở nhiều ứng dụng và sử dụng menu danh sách cửa sổ để chuyển đổi qua lại giữa chúng.
 - Ô dưới cùng: Cho phép bạn gán các tổ hợp phím tắt kiểu Vim (Vim-like keybindings) để lựa chọn các mục trong menu.
 
-💠 Ghi chú thuật ngữ:
+💠 **Ghi chú thuật ngữ:**
 - Tear off: Tính năng cho phép bạn tách một menu ra khỏi vị trí gốc và biến nó thành một cửa sổ nhỏ nằm cố định trên màn hình để tiện sử dụng.
 - Vim-like keybindings: Cách điều khiển bằng các phím chữ cái (như h, j, k, l) thay vì phím mũi tên, phổ biến trong trình soạn thảo văn bản Vim.
 - Parent menu / Submenu: menu cha và menu con (cấp thấp hơn).
@@ -292,7 +293,7 @@ Cấu hình menu ứng dụng trong WPrefs.app
 
 Trong bảng điều khiển này, menu ứng dụng và các lệnh để khởi chạy từng ứng dụng có thể được định nghĩa. Bảng điều khiển này đã được thay đổi kể từ phiên bản 0.63 trở đi. Hiện tại, nó hiển thị menu thực tế, từ đó cho phép chỉnh sửa trực tiếp (direct editing). Việc này chỉ có thể thực hiện được nếu menu ở định dạng "property list". Các menu ở định dạng văn bản thuần túy (plain text format) không thể chỉnh sửa được trong WPrefs. Hãy kiểm tra tệp "README" trong thư mục Window Maker để biết cách sử dụng định dạng này hay định dạng kia.
 
-> Gợi ý nhỏ cho bạn: Nếu bạn đang mở WPrefs mà thấy phần này bị xám (không chỉnh sửa được), có khả năng file menu của bạn vẫn đang ở dạng script cũ. Bạn có thể dùng lệnh ```bash wmmenugen ``` để tạo lại menu mới tương thích với giao diện đồ họa này đấy!
+💠 **Gợi ý nhỏ cho bạn:** Nếu bạn đang mở WPrefs mà thấy phần này bị xám (không chỉnh sửa được), có khả năng file menu của bạn vẫn đang ở dạng script cũ. Bạn có thể dùng lệnh ```bash wmmenugen ``` để tạo lại menu mới tương thích với giao diện đồ họa này đấy!
 
 
 
@@ -441,7 +442,7 @@ Việc nhấp vào thanh tiêu đề của một cửa sổ và kéo (dragging) 
 - Kéo thanh tiêu đề + phím Ctrl: di chuyển cửa sổ mà không lấy tiêu điểm (focusing) cho nó.
 - Kéo vùng ứng dụng hoặc thanh thay đổi kích thước + phím Meta: di chuyển cửa sổ.
 
-💠 Bạn có biết? Trong Window Maker, phím Meta thường mặc định là phím Alt trên bàn phím PC. Nếu bạn thấy tổ hợp phím này không hoạt động, có thể kiểm tra lại trong phần "Keyboard Shortcut Settings" mà chúng ta đã dịch ở trên để xem nó có bị gán cho phím khác (như phím Windows) không nhé!
+💠 **Bạn có biết?** Trong Window Maker, phím Meta thường mặc định là phím Alt trên bàn phím PC. Nếu bạn thấy tổ hợp phím này không hoạt động, có thể kiểm tra lại trong phần "Keyboard Shortcut Settings" mà chúng ta đã dịch ở trên để xem nó có bị gán cho phím khác (như phím Windows) không nhé!
 
 <a name="#Maximizing"></a>
 Maximizing
@@ -454,7 +455,7 @@ Maximizing
 
 Để ngăn một cửa sổ đã phóng to (maximized) che khuất "dock", tùy chọn "Keep on top" phải được chọn từ trình đơn của "dock".
 
-💠 Mẹo nhỏ: Nếu bạn muốn cửa sổ tự động tránh vùng không gian của "dock" mà không cần đặt "dock" luôn nổi lên trên, bạn có thể thiết lập "Workspace border" trong WPrefs.app để tạo một khoảng trống an toàn tại cạnh màn hình nơi đặt thanh "dock" của mình.
+💠 **Mẹo nhỏ:** Nếu bạn muốn cửa sổ tự động tránh vùng không gian của "dock" mà không cần đặt "dock" luôn nổi lên trên, bạn có thể thiết lập "Workspace border" trong WPrefs.app để tạo một khoảng trống an toàn tại cạnh màn hình nơi đặt thanh "dock" của mình.
 
 <a name="#Miniaturizing"></a>
 Miniaturizing
@@ -466,7 +467,7 @@ Cửa sổ thu nhỏ (miniwindow) khác với biểu tượng ứng dụng ở c
 - Nhấp đúp vào miniwindow: khôi phục cửa sổ đã thu nhỏ về trạng thái ban đầu.
 - Nhấp đúp chuột giữa vào biểu tượng ứng dụng: khôi phục tất cả các cửa sổ đã thu nhỏ và bị ẩn của ứng dụng đó.
 
-💠 Bạn có biết? Trong Window Maker, các cửa sổ thu nhỏ này thường xếp hàng ngăn nắp ở đáy màn hình. Nếu bạn thấy chúng chiếm quá nhiều diện tích, bạn có thể cân nhắc sử dụng tính năng "Hiding" (Ẩn) để dọn dẹp không gian làm việc gọn gàng hơn mà vẫn giữ ứng dụng chạy ngầm.
+💠 **Bạn có biết?** Trong Window Maker, các cửa sổ thu nhỏ này thường xếp hàng ngăn nắp ở đáy màn hình. Nếu bạn thấy chúng chiếm quá nhiều diện tích, bạn có thể cân nhắc sử dụng tính năng "Hiding" (Ẩn) để dọn dẹp không gian làm việc gọn gàng hơn mà vẫn giữ ứng dụng chạy ngầm.
 
 <a name="#Resizing"></a>
 Resizing
@@ -483,7 +484,7 @@ Các tổ hợp phím cung cấp thêm nhiều lựa chọn:
 - Nút chuột giữa + kéo thanh thay đổi kích thước: Thay đổi kích thước cửa sổ mà không đưa nó ra phía trước.
 - Phím Ctrl + kéo thanh thay đổi kích thước: Thay đổi kích thước cửa sổ mà không lấy tiêu điểm (focusing) cho nó.
 
-💠 Gợi ý: Nếu bạn thấy thanh ``` resizebar ``` này hơi khó bấm trúng (vì nó thường khá mỏng), bạn có thể dùng tổ hợp phím Alt + Chuột phải (phím Meta mặc định) ở bất kỳ đâu bên trong cửa sổ để thay đổi kích thước nhanh hơn nhiều đấy!
+💠 **Gợi ý:** Nếu bạn thấy thanh ``` resizebar ``` này hơi khó bấm trúng (vì nó thường khá mỏng), bạn có thể dùng tổ hợp phím Alt + Chuột phải (phím Meta mặc định) ở bất kỳ đâu bên trong cửa sổ để thay đổi kích thước nhanh hơn nhiều đấy!
 
 <a name="#Shading"></a>
 Shading
@@ -494,3 +495,13 @@ Việc nhấp đúp vào thanh tiêu đề của một cửa sổ sẽ cuộn (s
 Kể từ phiên bản 0.80.0, bạn có thể cuộn lên/hạ xuống (shade/unshade) một cửa sổ bằng cách sử dụng con lăn chuột trên thanh tiêu đề của nó. Tất nhiên, điều này giả định rằng hệ thống của bạn có khả năng quản lý con lăn chuột.
 
 Tệp ``` WMGLOBAL ``` trong thư mục ``` $HOME/GNUstep/Defaults ``` của bạn nên chứa hai chỉ thị mới: ``` MouseWheelUp ``` và ``` MouseWheelDown ```
+
+<a name="#Hiding"></a>
+Hiding
+----------------------
+
+Việc nhấp chuột phải vào nút thu nhỏ (nút bên trái trên thanh tiêu đề) sẽ ẩn ứng dụng đó đi. Sử dụng nút chuột giữa sẽ hiện (unhides) ứng dụng, đồng thời mở trình đơn danh sách cửa sổ và chọn ứng dụng đang ẩn. (Trên một số hệ điều hành, việc nhấn cả hai nút cùng lúc với loại chuột hai nút sẽ mang lại kết quả tương tự).
+
+Nếu cách này không hiệu quả, hãy sử dụng tổ hợp phím F11 (mặc định) để mở trình đơn danh sách cửa sổ.
+
+💠  **Sự khác biệt quan trọng:** Khác với "Miniaturizing" (thu nhỏ thành một biểu tượng nhỏ ở dưới màn hình), "Hiding" sẽ làm toàn bộ các cửa sổ của ứng dụng đó biến mất hoàn toàn khỏi không gian nhìn thấy, giúp màn hình của bạn cực kỳ gọn gàng. Bạn có thể tìm lại chúng nhanh chóng thông qua danh sách cửa sổ (F11).
