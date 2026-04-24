@@ -363,7 +363,7 @@ Nếu cần thiết, tệp cấu hình mặc định nằm tại đường dẫn
 > Lưu ý nhỏ: Vì đây là tệp dạng "property list" (plist), chỉ cần thiếu một dấu ngoặc hay dấu chấm phẩy cũng có thể khiến Window Maker không khởi động được giao diện người dùng. Bạn nên sao lưu tệp này trước khi chỉnh sửa thủ công nhé!
 
 <a name="#windows"></a>
-🛠️ Windows
+Windows
 ----------------------
 
 - [Mô tả (Description)](#Description)
