@@ -80,6 +80,7 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
   - [Focusing](#focusing)
   - [Reordering](#reordering)
   - [Moving](#moving)
+  - [Maximizing](#maximizing)
 
 💠 Giải thích thêm cho một số thuật ngữ:
 - Window focus: Trong tin học, đây là trạng thái một cửa sổ đang "được chọn" để nhận lệnh từ bàn phím/chuột.
@@ -438,3 +439,16 @@ Việc nhấp vào thanh tiêu đề của một cửa sổ và kéo (dragging) 
 - Kéo vùng ứng dụng hoặc thanh thay đổi kích thước + phím Meta: di chuyển cửa sổ.
 
 💠 Bạn có biết? Trong Window Maker, phím Meta thường mặc định là phím Alt trên bàn phím PC. Nếu bạn thấy tổ hợp phím này không hoạt động, có thể kiểm tra lại trong phần "Keyboard Shortcut Settings" mà chúng ta đã dịch ở trên để xem nó có bị gán cho phím khác (như phím Windows) không nhé!
+
+<a name="#Maximizing"></a>
+Maximizing
+----------------------
+
+- Nhấp đúp vào thanh tiêu đề trong khi giữ phím Ctrl: thay đổi kích thước chiều cao của cửa sổ lên toàn màn hình.
+- Nhấp đúp vào thanh tiêu đề trong khi giữ phím Shift: thay đổi kích thước chiều rộng của cửa sổ lên toàn màn hình.
+- Nhấp đúp vào thanh tiêu đề trong khi giữ cả hai phím Ctrl và Shift: thay đổi cả chiều cao và chiều rộng của cửa sổ lên toàn màn hình.
+- Nhấp đúp vào thanh tiêu đề trong khi giữ phím Ctrl hoặc Shift (lần nữa): khôi phục kích thước ban đầu của cửa sổ.
+
+Để ngăn một cửa sổ đã phóng to (maximized) che khuất "dock", tùy chọn "Keep on top" phải được chọn từ trình đơn của "dock".
+
+💠 Mẹo nhỏ: Nếu bạn muốn cửa sổ tự động tránh vùng không gian của "dock" mà không cần đặt "dock" luôn nổi lên trên, bạn có thể thiết lập "Workspace border" trong WPrefs.app để tạo một khoảng trống an toàn tại cạnh màn hình nơi đặt thanh "dock" của mình.
