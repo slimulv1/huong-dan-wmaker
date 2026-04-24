@@ -52,9 +52,6 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
   WPrefs.app sau khi khởi chạy
   
 ## 🎨 Các thiết lập tùy chỉnh hiện có
-  - [Preferences](#preferences)
-  - [WPrefs.app](#wprefsapp)
-  - [🎨 Các thiết lập tùy chỉnh hiện có](#-các-thiết-lập-tùy-chỉnh-hiện-có)
   - [Window focus](#window-focus)
   - [Window handling](#window-handling)
   - [Menu](#menu)
