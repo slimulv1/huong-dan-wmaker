@@ -16,8 +16,7 @@ Bài hướng dẫn này nhằm giúp người dùng Window Maker hiểu rõ hơ
 
 Thông tin trong bài hướng dẫn này dựa trên phiên bản Window Maker 0.95.3. Bạn hãy kiểm tra phiên bản mình đang dùng bằng cách mở WPrefs.app (công cụ Tùy chỉnh Window Maker). Số phiên bản được hiển thị ngay bên dưới tiêu đề "Window Maker Preferences" tại cửa sổ WPrefs chính. Bạn cũng có thể chạy lệnh wmaker --version trong cửa sổ terminal (không nhập dấu ngoặc kép). Lệnh này sẽ trả về số phiên bản Window Maker hiện đang được cài đặt trên máy.
 
-📜 Mục lục
------------------
+## 📜 Mục lục
 1. [Tùy chỉnh (Preferences)](#preferences)
 2. [Cửa sổ (Windows)](#windows)
 3. [Menu (Menus)](#menus)
@@ -361,3 +360,7 @@ Chỉnh sửa tệp cấu hình (Editing the configuration file)
 
 Nếu cần thiết, tệp cấu hình mặc định nằm tại đường dẫn ``` $(HOME)/GNUstep/Defaults/WindowMaker ``` có thể được chỉnh sửa bằng tay. Tệp này là một cơ sở dữ liệu với cú pháp "property list". Khi bạn chọn một tùy chọn trong WPrefs.app, lựa chọn đó sẽ được ghi lại vào tệp này. Khi thay đổi tệp mặc định này, việc tuân thủ đúng cú pháp là vô cùng quan trọng.
 > Lưu ý nhỏ: Vì đây là tệp dạng "property list" (plist), chỉ cần thiếu một dấu ngoặc hay dấu chấm phẩy cũng có thể khiến Window Maker không khởi động được giao diện người dùng. Bạn nên sao lưu tệp này trước khi chỉnh sửa thủ công nhé!
+
+<a name="##windows"></a>
+Cửa sổ (Windows
+----------------------
