@@ -79,6 +79,7 @@ WPrefs.app có một ô đánh dấu (checkbox) để bật balloon help (trợ 
   - [Description](#description)
   - [Focusing](#focusing)
   - [Reordering](#reordering)
+  - [Moving](#moving)
 
 💠 Giải thích thêm cho một số thuật ngữ:
 - Window focus: Trong tin học, đây là trạng thái một cửa sổ đang "được chọn" để nhận lệnh từ bàn phím/chuột.
@@ -426,3 +427,14 @@ Một số tổ hợp phím được cung cấp và rất hữu ích khi một c
 Đưa cửa sổ hiện đang được lấy tiêu điểm (focused) ra phía sau.
 
 Nhiều thuộc tính cửa sổ có thể được thay đổi từ bảng thuộc tính trong trình đơn lệnh cửa sổ (bằng cách nhấp chuột phải vào thanh tiêu đề). Kể từ phiên bản 0.62.0, việc xoay vòng (cycling) cửa sổ đã được thay đổi sang kiểu của Windows (Alt-Tab).
+
+<a name="#Moving"></a>
+Moving
+----------------------
+
+Việc nhấp vào thanh tiêu đề của một cửa sổ và kéo (dragging) nó bằng cách nhấn giữ nút chuột trái sẽ di chuyển cửa sổ đó. Hộp nhỏ ở giữa màn hình sẽ hiển thị vị trí hiện tại tính bằng "pixel" so với góc trên cùng bên trái của màn hình (+0 +0). Các tổ hợp phím bổ sung giúp việc thao tác linh hoạt hơn:
+- Kéo thanh tiêu đề bằng nút chuột giữa: di chuyển cửa sổ mà không thay đổi thứ tự lớp (stacking order) của nó.
+- Kéo thanh tiêu đề + phím Ctrl: di chuyển cửa sổ mà không lấy tiêu điểm (focusing) cho nó.
+- Kéo vùng ứng dụng hoặc thanh thay đổi kích thước + phím Meta: di chuyển cửa sổ.
+
+💠 Bạn có biết? Trong Window Maker, phím Meta thường mặc định là phím Alt trên bàn phím PC. Nếu bạn thấy tổ hợp phím này không hoạt động, có thể kiểm tra lại trong phần "Keyboard Shortcut Settings" mà chúng ta đã dịch ở trên để xem nó có bị gán cho phím khác (như phím Windows) không nhé!
