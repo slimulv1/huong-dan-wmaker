@@ -129,3 +129,30 @@ Icon
 <p align="left">
   <img src="/img/prefs4.png" alt="">
 </p>
+
+Tùy chỉnh biểu tượng trong WPrefs.app  
+Thiết lập các tùy chọn xử lý biểu tượng hoặc cửa sổ thu nhỏ (miniwindow).
+- Vị trí biểu tượng (Icon positioning)
+  - Khu vực này định nghĩa vị trí ban đầu mà các cửa sổ thu nhỏ (miniwindows) hoặc biểu tượng sẽ được hiển thị: dưới cùng, trên cùng, bên phải, bên trái...
+- Kích thước biểu tượng (Icon size)
+  - Lựa chọn kích thước của các biểu tượng được hiển thị khi một cửa sổ được thu nhỏ (miniaturized) và cho các biểu tượng ứng dụng. Các nhà phát triển "dockapp" thường mặc định rằng các ô biểu tượng sẽ là 64x64 pixel, vì vậy có lẽ tốt nhất là nên để nguyên ở kích thước đó, trừ khi bạn biết chắc mình sẽ không sử dụng "dockapps".
+- Xem trước thu nhỏ cho biểu tượng (Mini-Previews for Icons)
+  - Cho phép hiển thị nội dung của cửa sổ khi di chuột qua biểu tượng ứng dụng đã được thu nhỏ (minimised). Thanh trượt cho phép thiết lập kích thước của phần xem trước.
+- Hoạt ảnh thu nhỏ biểu tượng (Iconification animation)
+   - Khi cửa sổ của một ứng dụng được thu nhỏ (miniaturized), kiểu hoạt ảnh thu nhỏ cung cấp bốn lựa chọn hoạt ảnh:
+     - "Shrinking/Zooming",
+     - "Spinning/Twisting",
+     - "3D Flipping", hoặc
+     - "None"
+- Các ô đánh dấu (Checkboxes)
+   - Ô trên cùng cho phép/vô hiệu hóa việc tự động sắp xếp các biểu tượng.
+   - Ô ở giữa sẽ đặt các cửa sổ thu nhỏ (miniwindows) của các ứng dụng đang mở trên tất cả các không gian làm việc hiện có (vạn năng (omnipresent)).
+   - Ô dưới cùng cho phép sử dụng nhấp chuột đơn cho các biểu tượng đã thu nhỏ (minimized) hoặc đã được đưa vào dock (docked icon) thay vì phải nhấp đúp chuột.
+
+<a name="#ergonomy"></a>
+Ergonomy
+----------------------
+<p align="left">
+  <img src="/img/prefs5.png" alt="">
+</p>
+
