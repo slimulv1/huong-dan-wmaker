@@ -185,3 +185,11 @@ Dock
 <p align="left">
   <img src="/img/prefs7.png" alt="">
 </p>
+
+Thiết lập tùy chỉnh "Dock" trong WPrefs.app  
+Trong bảng điều khiển này, bạn có thể tinh chỉnh hành vi của "Dock"/"Clip"/"Drawer".
+- Độ trễ tự động thu gọn Clip và độ trễ tự động nổi lên của Clip (Clip autocollapsing delays and Clip autoraising delays) cho phép bạn chọn khoảng thời gian trễ cho việc mở rộng (expansion), thu gọn (collapsing), nổi lên (raising) và hạ xuống (lowering) của "Clip".
+- Dock/Clip/Drawer
+  - Biểu tượng đầu tiên cho phép/vô hiệu hóa "Dock", thanh dọc dành cho các "appicons" và ứng dụng của bạn.
+  - Biểu tượng thứ hai cho phép bật/tắt "Clip", ô biểu tượng có hình cái kẹp giấy.
+  - Biểu tượng cuối cùng cho phép bật/tắt "Drawer" - một "dockapp" đặc biệt dùng để chứa các biểu tượng ứng dụng theo chiều ngang.
