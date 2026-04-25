@@ -627,7 +627,8 @@ Nội dung của menu hoàn toàn có thể cấu hình được, bằng cách s
 Window list menu
 ----------------------
 <p align="left">
-  <img src="/img/menu_window_list.png" alt="
+  <img src="/img/menu_window_list.png" alt="">
+</p>
 
 menu danh sách cửa sổ (Window list menu)
 
