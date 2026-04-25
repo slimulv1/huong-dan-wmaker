@@ -932,3 +932,60 @@ Các chủ đề có thể bao gồm hình ảnh định dạng ```.png```, .```
 - Hậu tố: Thư mục chứa chủ đề phải sử dụng hậu tố ```.themed``` sau tên của chủ đề đó (Ví dụ: ```MyFavorite.themed```).
 
 💠 **Lưu ý kỹ thuật**: Nếu bạn tải về một chủ đề có dạng thư mục .themed, hãy đảm bảo rằng bên trong nó có tệp style. Nếu thiếu tệp này, Window Maker sẽ không thể nhận diện được đó là một gói chủ đề hợp lệ.
+
+<a name="#miscellaneous"></a>
+MISCELLANEOUS
+----------------------
+Các thiết lập khác (Miscellaneous)
+Nội dung
+- [Bản địa hóa (Localization)](#localization)
+- [Phông chữ (Fonts)](#fonts)
+- [Tiện ích (Utilities)](#utilities)
+
+<a name="#localization"></a>
+Localization
+----------------------
+**Bản địa hóa (Localization)**
+Chỉ cần Window Maker được biên dịch với các tùy chọn phù hợp và có cài đặt ```gettext```, nó sẽ hoàn toàn có khả năng bản địa hóa (chuyển đổi ngôn ngữ giao diện). Bạn có thể kiểm tra chi tiết trong tệp ```INSTALL```.
+
+**Bản địa hóa trình đơn không cần biến môi trường**
+Thông thường, việc chuyển đổi ngôn ngữ phụ thuộc vào biến môi trường ```$LANG```. Tuy nhiên, bạn vẫn có thể bản địa hóa các trình đơn mà không cần thiết lập biến này. Bằng cách sử dụng pl menu (property list menu), bạn có thể hiển thị trình đơn bằng bất kỳ ngôn ngữ nào có sẵn.
+
+**Tại sao lại dùng cách này thay vì thiết lập "đúng chuẩn"?**
+Có một vài lý do khiến người dùng muốn giữ ngôn ngữ mặc định của hệ thống thay vì định nghĩa một bản địa hóa mới toàn diện. Một trong những lý do chính là phần lớn các phần mềm khác không tồn tại đầy đủ ở tất cả các ngôn ngữ.
+
+Việc chỉ bản địa hóa trình đơn giúp bạn có một giao diện điều hướng thân thiện bằng tiếng mẹ đẻ, trong khi vẫn giữ hệ thống ổn định với ngôn ngữ mặc định để tránh các lỗi hiển thị hoặc thiếu hụt ngôn ngữ trong các ứng dụng chuyên sâu khác.
+
+💠 **Giải thích thêm:** Nói một cách đơn giản, nếu bạn đặt ```$LANG``` hệ thống sang một ngôn ngữ ít phổ biến, một số ứng dụng có thể bị lỗi font hoặc hiển thị "loằng ngoằng". Cách tiếp cận của Window Maker cho phép bạn "lai" giữa việc dùng trình đơn tiếng Việt (chẳng hạn) nhưng vẫn giữ các thông báo hệ thống bằng tiếng Anh để dễ tra cứu lỗi khi cần thiết.
+
+<a name="#fonts"></a>
+Fonts
+----------------------
+Bạn hoàn toàn có thể thay đổi các phông chữ trong Window Maker bằng cách chỉnh sửa tệp ```WindowMaker``` hoặc tệp ```WMGLOBAL``` trong thư mục ```~/GNUstep/Defaults```.
+
+Một lần nữa, tệp ```INSTALL``` đi kèm trong bộ mã nguồn sẽ cung cấp các hướng dẫn chi tiết về cách thực hiện việc này. Tệp cụ thể mà bạn cần chỉnh sửa sẽ tùy thuộc vào việc bạn muốn thay đổi loại phông chữ nào (ví dụ: phông chữ cho thanh tiêu đề cửa sổ khác với phông chữ trong trình đơn).
+
+Để đơn giản hóa công việc này, Window Maker cung cấp sẵn một kịch bản (script) có tên là ```wsetfont``` để giúp bạn thực hiện các thay đổi một cách thuận tiện hơn.
+
+💠 **Mẹo nhỏ cho người dùng Linux:** Thay vì chỉnh sửa thủ công các tệp cấu hình phức tạp, bạn nên sử dụng công cụ đồ họa WPrefs.app.
+- Mở WPrefs.app.
+- Tìm đến biểu tượng có chữ "A" lớn (Font Configuration).
+- Tại đây, bạn có thể chọn trực quan phông chữ cho từng thành phần như Window Title, Menu Title, Menu Text, và Icon Title.
+
+Việc sử dụng các phông chữ hiện đại (như font dạng Xft nếu phiên bản Window Maker của bạn hỗ trợ) sẽ giúp giao diện trông sắc nét hơn rất nhiều trên các màn hình đời mới!
+
+<a name="#utilities"></a>
+Utilities
+----------------------
+Window Maker cung cấp cho người dùng một số công cụ hỗ trợ rất hữu ích. Bạn có thể tìm thấy tệp ```README``` liên quan đến các kịch bản (scripts) này trong thư mục ```util```. Hầu hết mỗi kịch bản đều có trang hướng dẫn (```man page```) riêng mà bạn nên tham khảo.
+
+Các tiện ích này chủ yếu tập trung vào việc quản lý giao diện đồ họa (GUI) như: biểu tượng, kiểu dáng, phông chữ, trình đơn và hình nền.
+
+**Một số công cụ đáng chú ý:**
+- wdwrite: Dùng để ghi dữ liệu trực tiếp vào các tệp cấu hình.
+- setstyle và getstyle: Bộ đôi công cụ dùng để quản lý và áp dụng các chủ đề (themes).
+- wxcopy và wxpaste: Cho phép sao chép và dán văn bản bằng cách sử dụng bộ đệm cắt (cutbuffer) của hệ thống X. Trong đó, ```wxcopy``` thường được tích hợp sẵn trong trình đơn ứng dụng mặc định (mục Selection).
+- wkdemenu.pl: Một công cụ cực kỳ hữu ích cho những người dùng cài đặt song song môi trường KDE, giúp tích hợp trình đơn ứng dụng của KDE vào Window Maker.
+- wmagnify (Từ phiên bản 0.63.0): Công cụ kính lúp, cho phép phóng to vùng màn hình ngay tại vị trí con trỏ chuột.
+
+💠 **Mẹo nhỏ cho bạn:** Nếu bạn đang tùy chỉnh màu sắc qua Pywal như bạn đã tìm hiểu trước đó, lệnh ```setstyle``` chính là "chìa khóa" để bạn áp dụng các thay đổi về màu sắc lên toàn bộ giao diện Window Maker một cách đồng bộ mà không cần khởi động lại.
