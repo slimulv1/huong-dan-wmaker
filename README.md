@@ -892,3 +892,26 @@ Ngay sau khi bạn chép tệp vào đây, chúng sẽ xuất hiện trong menu 
 
 💠 **Gợi ý:** Nếu bạn có một bộ sưu tập ảnh độ phân giải cao, hãy thử định dạng .png hoặc .jpg để có chất lượng hiển thị tốt nhất trên màn hình của mình.
 
+<a name="#styles"></a>
+STYLES
+----------------------
+
+**Kiểu dáng (Styles)**
+Một "Kiểu dáng" xác định diện mạo của các thành phần then chốt trên môi trường máy tính Window Maker. Các thành phần này bao gồm thanh tiêu đề (titlebar) và thanh thay đổi kích thước (resizebar) của cửa sổ, tiêu đề và phần văn bản của menu (menu), cũng như nền của các biểu tượng (icons).
+
+**Đặc điểm của Style**
+Các đặc tính được xác định trong một Style (hoặc Theme) bao gồm màu sắc và "kết cấu" (texture) của các yếu tố giao diện chính. "Kết cấu" trong ngữ cảnh này có nghĩa là việc sử dụng kết hợp nhiều màu sắc theo các hiệu ứng chuyển màu (gradients) khác nhau — bạn không bị giới hạn chỉ trong các màu đơn sắc.
+
+**Cách thay đổi và tạo mới**
+- Thay đổi nhanh: Cách đơn giản nhất để thay đổi là chọn một kiểu dáng có sẵn từ menu:
+```Appearance -> Style```
+- Tạo kiểu dáng riêng: Bạn có thể tạo một Style theo ý muốn bằng công cụ Appearance Preferences trong WPrefs.app. Với công cụ này, bạn có thể cấu hình:
+  - Màu sắc và kết cấu của các thành phần cửa sổ (thanh tiêu đề, thanh thay đổi kích thước).
+  - Các thành phần của menu (thanh tiêu đề menu, màu chữ của các mục, "kiểu" menu).
+  - Màu sắc và kết cấu nền của biểu tượng.
+  - Vị trí văn bản trên thanh tiêu đề, cũng như phông chữ và màu chữ cho cả cửa sổ và menu.
+
+💠 **Mẹo nhỏ:** Nếu bạn đang tùy chỉnh trong WPrefs.app, hãy chú ý đến phần Texture. Bạn có thể chọn các kiểu như Symmetric Gradient, Diagonal Gradient, hoặc Interlaced để tạo ra vẻ ngoài bóng bẩy và hiện đại hơn cho các thanh tiêu đề cửa sổ đấy!
+
+<p align="left"> <img src="/img/prefs13.png" alt=""> </p>
+
