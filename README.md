@@ -11,10 +11,23 @@
 Possible values: [flat, flat-square, plastic, badge, for-the-badge, social] -->
 </div>
 
-## ⛩️ Lời tựa
-Bài hướng dẫn này nhằm giúp người dùng Window Maker hiểu rõ hơn về những tính năng tuyệt vời của trình quản lý cửa sổ này. Cuốn Hướng dẫn Sử dụng Chính thức (Users Guide) rất đáng để đọc; bạn có thể truy cập tài liệu này từ trang web của Window Maker. Ngoài ra, các bài hướng dẫn và mẹo khác cũng có thể được tìm thấy tại nhiều trang web khác nhau trên Internet. Việc tìm kiếm từ khóa "Window Maker guide how-to" có thể cung cấp cho bạn thêm nhiều thông tin hữu ích.  
+## ⛩️ Giới thiệu (Introduction)
+Window Maker là một trình quản lý cửa sổ dành cho hệ thống X11, ban đầu được thiết kế để hỗ trợ tích hợp cho môi trường máy tính **GNUstep**, dù nó hoàn toàn có thể hoạt động độc lập. Bằng mọi cách có thể, Window Maker tái hiện lại diện mạo và cảm giác sang trọng, tinh tế của giao diện người dùng **NeXTSTEP** huyền thoại.
+**Các tính năng chính của Window Maker:**
+- Quản lý cửa sổ dạng xếp chồng (Stacking): Đi kèm với khả năng quản lý cửa sổ theo dạng lát gạch (tiling) bán tự động.
+- Nhẹ và nhanh đến kinh ngạc: Tối ưu hóa hiệu suất tối đa cho hệ thống.
+- Dễ sử dụng: Giao diện trực quan, không gây bối rối cho người mới.
+- Khả năng tùy biến cực cao: Bạn có thể tinh chỉnh gần như mọi thành phần.
+- Phím tắt linh hoạt: Khả năng gán phím tắt cho một loạt các hành động khác nhau.
+- Menu động (Dynamic menus): Các mục trong menu có thể thay đổi nội dung dựa trên trạng thái hệ thống.
+- Các ứng dụng nhỏ gọn (Dockapps): Những tiện ích nhỏ có thể gắn trực tiếp vào Dock (như đồng hồ, trình theo dõi CPU).
+- Cấu hình thân thiện: Các tệp cấu hình dễ đọc đối với con người và có sẵn ứng dụng đồ họa (WPrefs.app) để chỉnh sửa trực quan.
+- Miễn phí và mã nguồn mở: Hoàn toàn tự do sử dụng và sửa đổi.
+- Cộng đồng năng động: Nhận được sự hỗ trợ từ người dùng trên toàn thế giới.
 
-Thông tin trong bài hướng dẫn này dựa trên phiên bản Window Maker 0.95.3. Bạn hãy kiểm tra phiên bản mình đang dùng bằng cách mở WPrefs.app (công cụ Tùy chỉnh Window Maker). Số phiên bản được hiển thị ngay bên dưới tiêu đề "Window Maker Preferences" tại cửa sổ WPrefs chính. Bạn cũng có thể chạy lệnh wmaker --version trong cửa sổ terminal (không nhập dấu ngoặc kép). Lệnh này sẽ trả về số phiên bản Window Maker hiện đang được cài đặt trên máy.
+Nếu bạn là người yêu thích sự tối giản nhưng vẫn muốn có một chút âm hưởng của thập niên 90 (thời đại của máy tính **NeXT** mà **Steve Jobs** từng dẫn dắt), Window Maker chính là "cỗ máy thời gian" hoàn hảo nhất trên Linux hiện nay.
+
+Thông tin trong bài hướng dẫn này dựa trên phiên bản Window Maker 0.95.3. Bạn hãy kiểm tra phiên bản mình đang dùng bằng cách mở **WPrefs.app** (công cụ Tùy chỉnh Window Maker). Số phiên bản được hiển thị ngay bên dưới tiêu đề "Window Maker Preferences" tại cửa sổ WPrefs chính. Bạn cũng có thể chạy lệnh wmaker --version trong cửa sổ terminal (không nhập dấu ngoặc kép). Lệnh này sẽ trả về số phiên bản Window Maker hiện đang được cài đặt trên máy.
 
 ## 📜 Mục lục
 1. [Tùy chỉnh (Preferences)](#preferences)
