@@ -1009,5 +1009,6 @@ Các tiện ích này chủ yếu tập trung vào việc quản lý giao diện
 <a name="#screensot"></a>
 SCREENSHOT
 ----------------------
-<p align="left"> <img src="/img/screenshot0.jpg" alt=""> </p> 
-<p align="left"> <img src="/img/screenshot1.jpg" alt=""> </p>
+<p align="left"> <img src="/img/screenshot0.png" alt=""> </p> 
+<p align="left"> <img src="/img/screenshot1.png" alt=""> </p>
+<p align="left"> <img src="/img/screenshot2.png" alt=""> </p>
