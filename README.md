@@ -12,7 +12,7 @@ Possible values: [flat, flat-square, plastic, badge, for-the-badge, social] -->
 </div>
 
 ## ⛩️ Giới thiệu (Introduction)
-Window Maker là một [trình quản lý cửa sổ](https://en.wikipedia.org/wiki/Window_manager) dành cho hệ thống X11, ban đầu được thiết kế để hỗ trợ tích hợp cho môi trường máy tính [GNUstep](http://gnustep.org), dù nó hoàn toàn có thể hoạt động độc lập. Bằng mọi cách có thể, Window Maker tái hiện lại diện mạo và cảm giác sang trọng, tinh tế của giao diện người dùng [NeXTSTEP](https://en.wikipedia.org/wiki/NeXTSTEP) huyền thoại.
+[Window Maker](https://github.com/window-maker/wmaker/) là một [trình quản lý cửa sổ](https://en.wikipedia.org/wiki/Window_manager) dành cho hệ thống X11, ban đầu được thiết kế để hỗ trợ tích hợp cho môi trường máy tính [GNUstep](http://gnustep.org), dù nó hoàn toàn có thể hoạt động độc lập. Bằng mọi cách có thể, Window Maker tái hiện lại diện mạo và cảm giác sang trọng, tinh tế của giao diện người dùng [NeXTSTEP](https://en.wikipedia.org/wiki/NeXTSTEP) huyền thoại.
 
 **Các tính năng chính của Window Maker:**
 - Quản lý cửa sổ dạng xếp chồng (Stacking): Đi kèm với khả năng quản lý cửa sổ theo dạng lát gạch (tiling) bán tự động.
@@ -21,7 +21,7 @@ Window Maker là một [trình quản lý cửa sổ](https://en.wikipedia.org/w
 - Khả năng tùy biến cực cao: Bạn có thể tinh chỉnh gần như mọi thành phần.
 - Phím tắt linh hoạt: Khả năng gán phím tắt cho một loạt các hành động khác nhau.
 - Menu động (Dynamic menus): Các mục trong menu có thể thay đổi nội dung dựa trên trạng thái hệ thống.
-- Các ứng dụng nhỏ gọn (Dockapps): Những tiện ích nhỏ có thể gắn trực tiếp vào Dock (như đồng hồ, trình theo dõi CPU).
+- Các ứng dụng nhỏ gọn ([Dockapps](https://www.dockapps.net/)): Những tiện ích nhỏ có thể gắn trực tiếp vào Dock (như đồng hồ, trình theo dõi CPU).
 - Cấu hình thân thiện: Các tệp cấu hình dễ đọc đối với con người và có sẵn ứng dụng đồ họa (WPrefs.app) để chỉnh sửa trực quan.
 - Miễn phí và mã nguồn mở: Hoàn toàn tự do sử dụng và sửa đổi.
 - Cộng đồng năng động: Nhận được sự hỗ trợ từ người dùng trên toàn thế giới.
