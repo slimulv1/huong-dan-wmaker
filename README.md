@@ -38,6 +38,7 @@ Thông tin trong bài hướng dẫn này dựa trên phiên bản Window Maker 
 5. [Clip](#clip)
 6. [Hình nền và chủ đề (Backgrounds and themes)](#backgrounds-and-themes)
 7. [Các mục khác (Miscellaneous)](#miscellaneous)
+8. [Screenshot](#screenshot)
 
 <a name="preferences"></a>
 🛠️ Preferences
@@ -1004,3 +1005,9 @@ Các tiện ích này chủ yếu tập trung vào việc quản lý giao diện
 - wmagnify (Từ phiên bản 0.63.0): Công cụ kính lúp, cho phép phóng to vùng màn hình ngay tại vị trí con trỏ chuột.
 
 💠 **Mẹo nhỏ cho bạn:** Nếu bạn đang tùy chỉnh màu sắc qua Pywal như bạn đã tìm hiểu trước đó, lệnh ```setstyle``` chính là "chìa khóa" để bạn áp dụng các thay đổi về màu sắc lên toàn bộ giao diện Window Maker một cách đồng bộ mà không cần khởi động lại.
+
+<a name="#screensot"></a>
+SCREENSHOT
+----------------------
+<p align="left"> <img src="/img/screenshot0.jpg" alt=""> </p> 
+<p align="left"> <img src="/img/screenshot1.jpg" alt=""> </p>
