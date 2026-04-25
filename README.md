@@ -842,3 +842,53 @@ Kể từ phiên bản 0.80.0, Clip cũng có khả năng "chiếm" các biểu 
 - 
 💠 **Mẹo nhỏ:** Việc sử dụng tính năng "Omnipresent" cho các ứng dụng như trình phát nhạc hay trình theo dõi tài nguyên hệ thống giúp bạn có thể điều khiển chúng từ bất kỳ không gian làm việc nào mà không cần phải chuyển màn hình ảo liên tục!
 
+<a name="#backgrounds-and-themes"></a>
+BACKGROUNDS AND THEMES
+----------------------
+### Nội Dung
+- [Hình nền (Backgrounds)](#backgrounds)
+- [Kiểu dáng (Styles)](#styles)
+- [Chủ đề (Themes)](#themes)
+
+Trong phạm vi của chuyến tham quan hướng dẫn này, chúng ta sẽ chỉ xem xét các tùy chọn diện mạo có sẵn (built-in) của Window Maker. Việc tự tay thiết kế các Kiểu dáng (Styles) và Chủ đề (Themes) tùy chỉnh không quá khó và cũng không đòi hỏi kiến thức lập trình hay kỹ năng chuyên môn đặc biệt, nhưng nội dung đó nằm ngoài phạm vi của bài hướng dẫn này.
+
+Bạn có thể dễ dàng tùy biến giao diện đồ họa (GUI) của Window Maker thông qua mục "Appearance" trong menu ứng dụng.
+
+**Cài đặt và sử dụng**
+Các Chủ đề, Kiểu dáng, Bộ biểu tượng và Hình nền có thể được lựa chọn ngay khi chúng được cài đặt vào đúng thư mục quy định:
+- Chủ đề (Themes): Cài đặt tại thư mục ```~/GNUstep/Library/WindowMaker/Themes/```
+- Kiểu dáng (Styles): Cài đặt tại thư mục ```~/GNUstep/Library/WindowMaker/Styles/```
+- Hình nền (Backgrounds): Cài đặt tại thư mục ```~/GNUstep/Library/WindowMaker/Backgrounds/```
+
+**Các tài nguyên mặc định**
+Nếu bạn đang sử dụng một phiên bản Window Maker mới cài đặt, bản phân phối Linux của bạn thường đã cung cấp sẵn một số chủ đề, kiểu dáng và hình nền mặc định. Trong một số trường hợp hiếm hoi, có những bản phân phối không cung cấp thêm bất kỳ tài nguyên nào và mong muốn người dùng tự bổ sung theo ý thích.
+
+💠 **Mẹo nhỏ:** Nếu bạn không tìm thấy các thư mục trên trong thư mục cá nhân của mình, bạn có thể tự tạo chúng! Window Maker sẽ tự động nhận diện các tệp tin mới ngay khi bạn thêm chúng vào mà không cần phải khởi động lại hệ thống.
+
+Dưới đây là hình ảnh minh họa cho menu "Appearance" cùng các menu con liên quan như chủ đề, kiểu dáng và hình nền:
+
+<p align="left"> <img src="/img/appearancemenu.png" alt=""> </p>
+
+Trong ảnh chụp màn hình phía trên, hầu hết các Kiểu dáng (Styles) đều là mặc định của bản phân phối Debian GNU/Linux, trong khi phần lớn các Chủ đề (Themes) là do người dùng tự cài đặt thêm. Hiện nay, có rất nhiều chủ đề đa dạng mà bạn có thể dễ dàng tải xuống từ Internet.
+
+💠 **Thông tin thêm cho bạn:** Vì bạn đang sử dụng hệ thống Linux, các bản phân phối như Debian thường lưu trữ các tài nguyên mặc định của Window Maker trong thư mục hệ thống ```/usr/share/WindowMaker/```. Nếu bạn muốn cài đặt các chủ đề mới tải về để sử dụng cá nhân mà không cần quyền quản trị (root), hãy ưu tiên đưa chúng vào thư mục ```~/GNUstep/Library/WindowMaker/Themes/``` trong thư mục Home của mình nhé!
+
+<a name="#backgrounds"></a>
+BACKGROUNDS 
+----------------------
+Hình nền có thể là các màu đơn sắc hoặc màu chuyển sắc (gradient) do hệ thống tạo ra, hoặc có thể là các tệp hình ảnh do người dùng hoặc bản phân phối cung cấp.
+**Cách thay đổi nhanh:**
+- Màu sắc & Chuyển sắc: Cách dễ nhất để thay đổi màu nền đơn sắc hoặc hiệu ứng chuyển màu của hệ thống là chọn một mẫu từ menu:
+```Appearance -> Background -> <Solid | Gradient>```
+Trong hầu hết các cấu hình mặc định, sẽ có khoảng sáu đến tám lựa chọn sẵn có cho mỗi danh mục này.
+- Hình ảnh: Tương tự, cách đơn giản nhất để đổi sang một hình nền phong cảnh hoặc ảnh nghệ thuật là chọn từ menu:
+```Appearance -> Background -> Images```
+
+**Sử dụng hình ảnh cá nhân:**
+Nếu bạn muốn cài đặt các hình ảnh của riêng mình để làm hình nền, hãy đặt tệp hình ảnh đó vào thư mục:
+```~/GNUstep/Library/WindowMaker/Backgrounds/```
+
+Ngay sau khi bạn chép tệp vào đây, chúng sẽ xuất hiện trong menu để bạn lựa chọn mà không cần thực hiện thêm thao tác cấu hình phức tạp nào.
+
+💠 **Gợi ý:** Nếu bạn có một bộ sưu tập ảnh độ phân giải cao, hãy thử định dạng .png hoặc .jpg để có chất lượng hiển thị tốt nhất trên màn hình của mình.
+
